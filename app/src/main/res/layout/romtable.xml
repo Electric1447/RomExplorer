@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="HardcodedText,ContentDescription">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000">
+
+        <ImageView
+            android:src="@drawable/px400_empty"
+            android:layout_height="36dp"
+            android:layout_width="36dp"
+            android:layout_margin="1dp"
+            android:background="#FFF"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/top1"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="#FFF"
+            android:padding="4dp"
+            android:text=" Rom"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/top2"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="#FFF"
+            android:padding="4dp"
+            android:text="Status"
+            android:gravity="center_vertical"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/top3"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="#FFF"
+            android:padding="4dp"
+            android:text="Type"
+            android:gravity="center_vertical"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/top4"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="#FFF"
+            android:padding="4dp"
+            android:text="Link"
+            android:gravity="center_vertical"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000">
+
+        <ImageView
+            android:id="@+id/rImage"
+            android:layout_height="36dp"
+            android:layout_width="36dp"
+            android:layout_margin="1dp"
+            android:background="#FFF"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="#FFF"
+            android:padding="4dp"
+            android:text="LineageOS"
+            app:autoSizeTextType="uniform"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="#FFF"
+            android:padding="4dp"
+            android:text="Stable"
+            android:gravity="center_vertical"
+            android:textSize="17sp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="#FFF"
+            android:padding="4dp"
+            android:text="Offical"
+            android:gravity="center_vertical"
+            android:textSize="17sp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="#FFFFFF"
+            android:padding="4dp"
+            android:text="@string/link_here"
+            android:gravity="center_vertical"
+            android:textSize="17sp"
+            android:textColor="#3F51B5"
+            android:textStyle="italic" />
+
+    </TableRow>
+
+</TableLayout>
