@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<devices>
+
+    <device name="op1">
+        <name>OnePlus One</name>
+        <codename>bacon</codename>
+        <manufacturer>OnePlus</manufacturer>
+        <year>2014</year>
+    </device>
+
+    <device name="op6t">
+        <name>OnePlus 6T</name>
+        <codename>fajita</codename>
+        <manufacturer>OnePlus</manufacturer>
+        <year>2018</year>
+    </device>
+
+    <device name="s8">
+        <name>Galaxy S8</name>
+        <codename>dreamlte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2017</year>
+    </device>
+
+    <device name="s9">
+        <name>Galaxy S9</name>
+        <codename>starlte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2018</year>
+    </device>
+
+    <device name="a52017">
+        <name>Galaxy A5 (2017)</name>
+        <codename>a5y17lte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2017</year>
+    </device>
+
+</devices>

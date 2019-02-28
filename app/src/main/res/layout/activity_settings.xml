@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:textColor="#FFF"
+                android:textSize="20sp" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Viewable Build-Status:"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/cbStable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:onClick="StableCB"
+                android:text="Stable"
+                android:textColor="@color/colorGreen2"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cbBeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:onClick="BetaCB"
+                android:text="Beta"
+                android:textColor="@color/colorOrange2"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cbAlpha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:onClick="AlphaCB"
+                android:text="Alpha"
+                android:textColor="@color/colorRed"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Viewable Build-Types:"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/cbOfficial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:onClick="OfficialCB"
+                android:text="Official"
+                android:textColor="@color/colorDGreen2"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cbUnofficial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:onClick="UnofficialCB"
+                android:text="Unofficial"
+                android:textColor="@color/colorDBlue2"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cbNA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:onClick="NACB"
+                android:text="N/A"
+                android:textColor="@color/colorGrey"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

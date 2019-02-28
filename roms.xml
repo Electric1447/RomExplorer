@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<roms>
+
+    <rom-array name="op1">
+        <rom>
+            <name>googel      </name>
+            <status>Beta      </status>
+            <type>N/A      </type>
+            <url>https://archive.org/</url>
+        </rom>
+
+        <rom>
+            <name>googel</name>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://youtube.com/</url>
+        </rom>
+
+        <rom>
+            <name>googel</name>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://lineageos.org/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="op6t">
+        <rom>
+            <name>HavocOS</name>
+            <status>Stable    </status>
+            <type>Official    </type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-havoc-os-t3883547</url>
+        </rom>
+
+        <rom>
+            <name>Renovate ICE</name>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-renovate-ice-10-1-oxygenos-9-0-3-9-t3893372</url>
+        </rom>
+
+        <rom>
+            <name>AOSiP</name>
+            <status>Beta</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-android-source-illusion-project-t3878204</url>
+        </rom>
+
+        <rom>
+            <name>Omnirom</name>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-omnirom-oneplus6t-t3888582</url>
+        </rom>
+
+        <rom>
+            <name>RRemix 7.0.0</name>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-unofficial-ressurection-remix-t3892779</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 16.0</name>
+            <status>Beta</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-lineageos-16-0-t3897334</url>
+        </rom>
+
+        <rom>
+            <name>LiquidRemix</name>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-liquidremix-t3888697</url>
+        </rom>
+
+        <rom>
+            <name>POSP</name>
+            <status>Beta</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-posp-v2-1-fajita-t3894480</url>
+        </rom>
+
+        <rom>
+            <name>Pixel Experience</name>
+            <status>Beta</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-pixel-experience-t3875179</url>
+        </rom>
+
+        <rom>
+            <name>DotOS</name>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-dotos-t3903254</url>
+        </rom>
+
+        <rom>
+            <name>Paranoid Android</name>
+            <status>Beta</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/paranoid-android-pie-beta-oneplus-6t-t3903305</url>
+        </rom>
+
+        <rom>
+            <name>CarbonROM</name>
+            <status>Beta</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/9-carbonrom-cr-7-0-t3897320</url>
+        </rom>
+
+        <rom>
+            <name>crDroid 5.1</name>
+            <status>Beta</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/official-romcrdroid-09-02-19-t3898685</url>
+        </rom>
+
+        <rom>
+            <name>CypherOS 7.0.0</name>
+            <status>Beta</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-cypheros-7-0-0-t3898223</url>
+        </rom>
+
+        <rom>
+            <name>BootleggersROM</name>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/bootleggersrom-4-0-stable-t3894698</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="s8">
+        <rom>
+            <name>Renovate ICE</name>
+            <status>Stable    </status>
+            <type>N/A    </type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-renovate-ice-10-1-oxygenos-9-0-3-9-t3893372</url>
+        </rom>
+
+        <rom>
+            <name>SoLdieR9312s ROM</name>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/g95xf-fd-n-oreo-beta-2-soldier9312-zqk4-t3703183</url>
+        </rom>
+
+        <rom>
+            <name>GoogleWiz</name>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-googlewiz-oreo-extreme-debloat-t3750641</url>
+        </rom>
+
+        <rom>
+            <name>LightROM</name>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/teamexykings-lightrom-t3891294</url>
+        </rom>
+
+        <rom>
+            <name>LightROM (S9 Port)</name>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-lightrom-t3758681</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 15.1</name>
+            <status>Alpha</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-lineageos-15-1-t3899829</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="s9">
+        <rom>
+            <name>googel      </name>
+            <status>Beta      </status>
+            <type>N/A      </type>
+            <url>https://archive.org/</url>
+        </rom>
+
+        <rom>
+            <name>googel</name>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://archive.org/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="a52017">
+        <rom>
+            <name>LineageOS 14.1</name>
+            <status>Stable    </status>
+            <type>Official    </type>
+            <url>https://download.lineageos.org/a5y17lte</url>
+        </rom>
+
+        <rom>
+            <name>hadesRom 6.0</name>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-oreo-hadesrom-stock-t3779567</url>
+        </rom>
+
+        <rom>
+            <name>RRemix 7.0.0</name>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-resurrection-remix-v7-0-0-t3893699</url>
+        </rom>
+
+        <rom>
+            <name>RRemix 6.2.1</name>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/8-1-resurrection-remix-6-2-1-t3875569</url>
+        </rom>
+
+        <rom>
+            <name>RRemix 5.8.5</name>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/7-1-2-resurrection-remix-5-8-5-t3768543</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 16.0</name>
+            <status>Alpha</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-lineageos-16-0-galaxy-a57-2017-t3876673</url>
+        </rom>
+
+        <rom>
+            <name>AOKP</name>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-aokp-t3888257</url>
+        </rom>
+
+        <rom>
+            <name>Pixel Experience</name>
+            <status>Alpha</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/unofficial-pixel-experience-9-0-android-t3885229</url>
+        </rom>
+    </rom-array>
+
+</roms>

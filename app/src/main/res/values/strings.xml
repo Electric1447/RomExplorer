@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RomExplorer</string>
+    <string name="link_here"><u>Here</u></string>
+
+    <string-array name="deviceBoldText">
+        <item>Name: </item>
+        <item>Codename: </item>
+        <item>Manufacturer: </item>
+        <item>Year: </item>
+    </string-array>
+
+</resources>
