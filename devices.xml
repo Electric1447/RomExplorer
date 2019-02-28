@@ -64,6 +64,13 @@
         <year>2018</year>
     </device>
 
+    <device name="a52017">
+        <name>Galaxy A5 (2017)</name>
+        <codename>a5y17lte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2017</year>
+    </device>
+
     <device name="s8">
         <name>Galaxy S8</name>
         <codename>dreamlte</codename>
@@ -76,13 +83,6 @@
         <codename>starlte</codename>
         <manufacturer>Samsung</manufacturer>
         <year>2018</year>
-    </device>
-
-    <device name="a52017">
-        <name>Galaxy A5 (2017)</name>
-        <codename>a5y17lte</codename>
-        <manufacturer>Samsung</manufacturer>
-        <year>2017</year>
     </device>
 
 </devices>

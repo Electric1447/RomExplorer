@@ -356,6 +356,76 @@
             <url>https://forum.xda-developers.com/oneplus-6t/development/bootleggersrom-4-0-stable-t3894698</url>
         </rom>
     </rom-array>
+	
+
+
+
+
+    <rom-array name="a52017">
+        <rom>
+            <name>LineageOS 14.1</name>
+			<version>7.1.2</version>
+            <status>Stable    </status>
+            <type>Official    </type>
+            <url>https://download.lineageos.org/a5y17lte</url>
+        </rom>
+
+        <rom>
+            <name>hadesRom 6.0</name>
+			<version>8.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-oreo-hadesrom-stock-t3779567</url>
+        </rom>
+
+        <rom>
+            <name>RRemix 7.0.0</name>
+			<version>9.0</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-resurrection-remix-v7-0-0-t3893699</url>
+        </rom>
+
+        <rom>
+            <name>RRemix 6.2.1</name>
+			<version>8.1</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/8-1-resurrection-remix-6-2-1-t3875569</url>
+        </rom>
+
+        <rom>
+            <name>RRemix 5.8.5</name>
+			<version>7.1.2</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/7-1-2-resurrection-remix-5-8-5-t3768543</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 16.0</name>
+			<version>9.0</version>
+            <status>Alpha</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-lineageos-16-0-galaxy-a57-2017-t3876673</url>
+        </rom>
+
+        <rom>
+            <name>AOKP</name>
+			<version>9.0</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-aokp-t3888257</url>
+        </rom>
+
+        <rom>
+            <name>Pixel Experience</name>
+			<version>9.0</version>
+            <status>Alpha</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/unofficial-pixel-experience-9-0-android-t3885229</url>
+        </rom>
+    </rom-array>
 
 
 
@@ -430,76 +500,6 @@
             <status>Beta</status>
             <type>N/A</type>
             <url>https://archive.org/</url>
-        </rom>
-    </rom-array>
-
-
-
-
-
-    <rom-array name="a52017">
-        <rom>
-            <name>LineageOS 14.1</name>
-			<version>7.1.2</version>
-            <status>Stable    </status>
-            <type>Official    </type>
-            <url>https://download.lineageos.org/a5y17lte</url>
-        </rom>
-
-        <rom>
-            <name>hadesRom 6.0</name>
-			<version>8.0</version>
-            <status>Stable</status>
-            <type>N/A</type>
-            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-oreo-hadesrom-stock-t3779567</url>
-        </rom>
-
-        <rom>
-            <name>RRemix 7.0.0</name>
-			<version>9.0</version>
-            <status>Stable</status>
-            <type>Unofficial</type>
-            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-resurrection-remix-v7-0-0-t3893699</url>
-        </rom>
-
-        <rom>
-            <name>RRemix 6.2.1</name>
-			<version>8.1</version>
-            <status>Stable</status>
-            <type>Unofficial</type>
-            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/8-1-resurrection-remix-6-2-1-t3875569</url>
-        </rom>
-
-        <rom>
-            <name>RRemix 5.8.5</name>
-			<version>7.1.2</version>
-            <status>Stable</status>
-            <type>Unofficial</type>
-            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/7-1-2-resurrection-remix-5-8-5-t3768543</url>
-        </rom>
-
-        <rom>
-            <name>LineageOS 16.0</name>
-			<version>9.0</version>
-            <status>Alpha</status>
-            <type>Unofficial</type>
-            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-lineageos-16-0-galaxy-a57-2017-t3876673</url>
-        </rom>
-
-        <rom>
-            <name>AOKP</name>
-			<version>9.0</version>
-            <status>Stable</status>
-            <type>Unofficial</type>
-            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-aokp-t3888257</url>
-        </rom>
-
-        <rom>
-            <name>Pixel Experience</name>
-			<version>9.0</version>
-            <status>Alpha</status>
-            <type>Unofficial</type>
-            <url>https://forum.xda-developers.com/samsung-a-series-2017/development/unofficial-pixel-experience-9-0-android-t3885229</url>
         </rom>
     </rom-array>
 
