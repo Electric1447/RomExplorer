@@ -1,8 +1,11 @@
 package eparon.romexplorer;
 
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -28,11 +31,17 @@ public class MainActivity extends AppCompatActivity {
 
     Context context;
     ProgressDialog pDialog;
-    String URL[] = new String[] {"https://raw.githubusercontent.com/Electric1447/test/master/devices-test.xml", "https://raw.githubusercontent.com/Electric1447/test/master/roms-test.xml"};
+    String URL[] = new String[] {"https://raw.githubusercontent.com/Electric1447/RomExplorer/master/devices.xml", "https://raw.githubusercontent.com/Electric1447/RomExplorer/master/roms.xml"};
 
     Device[] devices;
     Rom[][] roms;
 
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        assert connectivityManager != null;
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+    }
 
     @Override
     public void onBackPressed() { this.finishAffinity(); }
@@ -41,6 +50,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        if (!isNetworkAvailable())
+            startActivity(new Intent(MainActivity.this, InternetCheck.class));
 
         TextView version = findViewById(R.id.version);
         version.setText(String.format("Version ALPHA %s", BuildConfig.VERSION_NAME.substring(1)));
@@ -68,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
     //
     // DownloadRomXML AsyncTask
     //
+    @SuppressLint("StaticFieldLeak")
     private class DownloadRomXML extends AsyncTask<String, Void, Void> {
 
         @Override
@@ -139,6 +152,7 @@ public class MainActivity extends AppCompatActivity {
     //
     // DownloadDeviceXML AsyncTask
     //
+    @SuppressLint("StaticFieldLeak")
     private class DownloadDeviceXML extends AsyncTask<String, Void, Void> {
 
         @Override

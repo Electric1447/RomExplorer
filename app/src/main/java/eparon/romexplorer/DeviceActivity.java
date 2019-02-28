@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Typeface;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -16,10 +18,6 @@ import android.widget.ImageView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
-
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 
 import java.util.Objects;
 
@@ -34,15 +32,20 @@ public class DeviceActivity extends AppCompatActivity {
     Device cDevice;
     ImageView Image;
 
-    @Override
-    public void onBackPressed() {
-        startActivity(new Intent(DeviceActivity.this, MainActivity.class));
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        assert connectivityManager != null;
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_device);
+
+        if (!isNetworkAvailable())
+            startActivity(new Intent(DeviceActivity.this, InternetCheck.class));
 
         prefs = getSharedPreferences(PREFS_RE, Context.MODE_PRIVATE);
 
@@ -189,12 +192,6 @@ public class DeviceActivity extends AppCompatActivity {
         tText2.setWidth(tabledimms[1]);
         tText3.setWidth(tabledimms[2]);
         tText4.setWidth(tabledimms[3]);
-    }
-
-    private static String getValue(String tag, Element element) {
-        NodeList nodeList = element.getElementsByTagName(tag).item(0).getChildNodes();
-        Node node = nodeList.item(0);
-        return node.getNodeValue();
     }
 
 }

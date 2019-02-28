@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">RomExplorer</string>
     <string name="link_here"><u>Here</u></string>
+    <string name="icError">No Internet Connection, Please try again later.</string>
 
     <string-array name="deviceBoldText">
         <item>Name: </item>
