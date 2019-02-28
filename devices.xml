@@ -7,6 +7,55 @@
         <manufacturer>OnePlus</manufacturer>
         <year>2014</year>
     </device>
+	
+	<device name="opx">
+        <name>OnePlus X</name>
+        <codename>onyx</codename>
+        <manufacturer>OnePlus</manufacturer>
+        <year>2015</year>
+    </device>
+	
+	<device name="op2">
+        <name>OnePlus 2</name>
+        <codename>oneplus2</codename>
+        <manufacturer>OnePlus</manufacturer>
+        <year>2015</year>
+    </device>
+	
+	<device name="op3">
+        <name>OnePlus 3</name>
+        <codename>oneplus3</codename>
+        <manufacturer>OnePlus</manufacturer>
+        <year>2016</year>
+    </device>
+	
+	<device name="op3t">
+        <name>OnePlus 3T</name>
+        <codename>oneplus3t</codename>
+        <manufacturer>OnePlus</manufacturer>
+        <year>2016</year>
+    </device>
+	
+	<device name="op5">
+        <name>OnePlus 5</name>
+        <codename>cheeseburger</codename>
+        <manufacturer>OnePlus</manufacturer>
+        <year>2017</year>
+    </device>
+	
+	<device name="op5t">
+        <name>OnePlus 5T</name>
+        <codename>dumpling</codename>
+        <manufacturer>OnePlus</manufacturer>
+        <year>2017</year>
+    </device>
+	
+	<device name="op6">
+        <name>OnePlus 6</name>
+        <codename>enchilada</codename>
+        <manufacturer>OnePlus</manufacturer>
+        <year>2018</year>
+    </device>
 
     <device name="op6t">
         <name>OnePlus 6T</name>
