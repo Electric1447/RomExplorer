@@ -15,9 +15,11 @@ public class Settings extends AppCompatActivity {
 
     boolean stableFilter = false, betsFilter = false, alphaFilter = false;
     boolean officialFilter = false, unofficialFilter = false, naFilter = false;
+    boolean disableAM = false;
 
     CheckBox stableCB, betaCB, alphaCB;
     CheckBox officialCB, unofficialCB, naCB;
+    CheckBox damCB;
 
     @Override
     public void onBackPressed() {
@@ -28,6 +30,7 @@ public class Settings extends AppCompatActivity {
         editor.putBoolean("officialFilter", officialFilter);
         editor.putBoolean("unofficialFilter", unofficialFilter);
         editor.putBoolean("naFilter", naFilter);
+        editor.putBoolean("disableAM", disableAM);
         editor.apply();
 
         startActivity(new Intent(Settings.this, MainActivity.class));
@@ -48,6 +51,8 @@ public class Settings extends AppCompatActivity {
         unofficialFilter = prefs.getBoolean("unofficialFilter", unofficialFilter);
         naFilter = prefs.getBoolean("naFilter", naFilter);
 
+        disableAM = prefs.getBoolean("disableAM", disableAM);
+
         stableCB = findViewById(R.id.cbStable);
         betaCB = findViewById(R.id.cbBeta);
         alphaCB = findViewById(R.id.cbAlpha);
@@ -56,6 +61,8 @@ public class Settings extends AppCompatActivity {
         unofficialCB = findViewById(R.id.cbUnofficial);
         naCB = findViewById(R.id.cbNA);
 
+        damCB = findViewById(R.id.cbDam);
+
         stableCB.setChecked(!stableFilter);
         betaCB.setChecked(!betsFilter);
         alphaCB.setChecked(!alphaFilter);
@@ -63,6 +70,8 @@ public class Settings extends AppCompatActivity {
         officialCB.setChecked(!officialFilter);
         unofficialCB.setChecked(!unofficialFilter);
         naCB.setChecked(!naFilter);
+
+        damCB.setChecked(disableAM);
     }
 
     public void StableCB (View view) {
@@ -87,6 +96,10 @@ public class Settings extends AppCompatActivity {
 
     public void NACB (View view) {
         naFilter = !naCB.isChecked();
+    }
+
+    public void DamCB (View view) {
+        disableAM = damCB.isChecked();
     }
 
 }

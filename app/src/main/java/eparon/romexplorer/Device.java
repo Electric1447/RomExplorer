@@ -2,6 +2,8 @@ package eparon.romexplorer;
 
 import java.io.Serializable;
 
+import org.apache.commons.lang3.ArrayUtils;
+
 public class Device implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -72,13 +74,34 @@ public class Device implements Serializable {
 
         if (counter == 0)
             return null;
-        else {
-            Device[] temp = new Device[counter];
-            for (int i = 0; i < counter; i++)
-                temp[i] = dev[arr[i]];
-            return temp;
+
+        Device[] temp = new Device[counter];
+
+        for (int i = 0; i < counter; i++)
+            temp[i] = dev[arr[i]];
+
+        return temp;
+    }
+
+    public static String[] getAllManufacturersNames(Device[] dev) {
+
+        int counter = 0;
+        String[] temp = new String[dev.length];
+
+        for (Device aDev : dev) {
+            if (!ArrayUtils.contains(temp, aDev.getManufacturer())) {
+                temp[counter] = aDev.getManufacturer();
+                counter++;
+            }
         }
 
+        if (counter == 0)
+            return null;
+
+        String[] str = new String[counter];
+        System.arraycopy(temp, 0, str, 0, counter);
+
+        return str;
     }
 
 }

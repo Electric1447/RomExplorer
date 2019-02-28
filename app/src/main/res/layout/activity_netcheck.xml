@@ -8,22 +8,23 @@
     tools:context=".InternetCheck"
     tools:ignore="HardcodedText">
 
-
     <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="180dp"
         android:text="No Internet Connection"
-        android:textStyle="bold"
         android:textColor="#000"
         android:textSize="28sp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="180dp" />
+        android:textStyle="bold" />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Retry"
-        android:onClick="CheckConnectionButton" />
+        android:onClick="CheckConnectionButton"
+        android:text="Retry" />
 
 </android.support.design.widget.CoordinatorLayout>

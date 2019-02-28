@@ -15,6 +15,7 @@ import android.text.style.StyleSpan;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -77,10 +78,12 @@ public class DeviceActivity extends AppCompatActivity {
         Image = findViewById(R.id.image);
         int resID = getResources().getIdentifier(cDevice.getCodename(), "drawable", getPackageName());
         Image.setImageResource(resID);
+        if (Image.getDrawable() == null)
+            Image.setImageResource(R.drawable.device_default);
 
         TableLayout tLayout, top;
         TableRow table1;
-        TextView rName, rStatus, rType, rUrl;
+        TextView rName, rVersion, rStatus, rType, rUrl;
         ImageView rImage;
 
         View v = View.inflate(this, R.layout.romtable, null);
@@ -96,7 +99,9 @@ public class DeviceActivity extends AppCompatActivity {
         if (table1.getParent() != null)
             ((ViewGroup)table1.getParent()).removeView(table1);
         top.addView(table1);
-        int[] tabledimms = new int[4];
+        int[] tabledimms = new int[5];
+
+        LinearLayout tText2 = findViewById(R.id.top2);
 
         for (int i = 0; i < cDevice.getRoms().length; i++) {
 
@@ -114,7 +119,10 @@ public class DeviceActivity extends AppCompatActivity {
             if (cDevice.getRoms()[i].getName().length() > 10)
                 rName.setTextSize((float)(cDevice.getRoms()[i].getName().length()) / 2 - 1);
 
-            rStatus = v2.findViewById(R.id.textView2);
+            rVersion = v2.findViewById(R.id.textView2);
+            rVersion.setText(cDevice.getRoms()[i].getVersion());
+
+            rStatus = v2.findViewById(R.id.textView3);
             rStatus.setText(cDevice.getRoms()[i].getStatus());
             switch (cDevice.getRoms()[i].getStatus().replaceAll("\\s+", "")) {
                 case "Stable":
@@ -134,7 +142,7 @@ public class DeviceActivity extends AppCompatActivity {
                     break;
             }
 
-            rType = v2.findViewById(R.id.textView3);
+            rType = v2.findViewById(R.id.textView4);
             rType.setText(cDevice.getRoms()[i].getType());
             switch (cDevice.getRoms()[i].getType().replaceAll("\\s+", "")) {
                 case "Official":
@@ -154,7 +162,7 @@ public class DeviceActivity extends AppCompatActivity {
                     break;
             }
 
-            rUrl = v2.findViewById(R.id.textView4);
+            rUrl = v2.findViewById(R.id.textView5);
             rUrl.setTag(i);
 
             if (table2.getParent() != null)
@@ -173,25 +181,34 @@ public class DeviceActivity extends AppCompatActivity {
             rName.measure(0, 0);
             if (tabledimms[0] < rName.getMeasuredWidth())
                 tabledimms[0] = rName.getMeasuredWidth();
+            rVersion.measure(0, 0);
+            if (tabledimms[1] < rVersion.getMeasuredWidth())
+                tabledimms[1] = rVersion.getMeasuredWidth();
+            else {
+                tText2.measure(0, 0);
+                rVersion.setWidth(tText2.getMeasuredWidth());
+            }
             rStatus.measure(0, 0);
-            if (tabledimms[1] < rStatus.getMeasuredWidth())
-                tabledimms[1] = rStatus.getMeasuredWidth();
+            if (tabledimms[2] < rStatus.getMeasuredWidth())
+                tabledimms[2] = rStatus.getMeasuredWidth();
             rType.measure(0, 0);
-            if (tabledimms[2] < rType.getMeasuredWidth())
-                tabledimms[2] = rType.getMeasuredWidth();
+            if (tabledimms[3] < rType.getMeasuredWidth())
+                tabledimms[3] = rType.getMeasuredWidth();
             rUrl.measure(0, 0);
-            if (tabledimms[3] < rUrl.getMeasuredWidth())
-                tabledimms[3] = rUrl.getMeasuredWidth();
+            if (tabledimms[4] < rUrl.getMeasuredWidth())
+                tabledimms[4] = rUrl.getMeasuredWidth();
         }
 
         TextView tText1 = findViewById(R.id.top1);
-        TextView tText2 = findViewById(R.id.top2);
         TextView tText3 = findViewById(R.id.top3);
         TextView tText4 = findViewById(R.id.top4);
+        TextView tText5 = findViewById(R.id.top5);
         tText1.setWidth(tabledimms[0]);
-        tText2.setWidth(tabledimms[1]);
+        if (tabledimms[1] > tText2.getMeasuredWidth())
+            tText2.setLayoutParams(new TableRow.LayoutParams(tabledimms[1], TableRow.LayoutParams.WRAP_CONTENT));
         tText3.setWidth(tabledimms[2]);
         tText4.setWidth(tabledimms[3]);
+        tText5.setWidth(tabledimms[4]);
     }
 
 }

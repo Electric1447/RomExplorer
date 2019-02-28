@@ -70,13 +70,13 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
-                android:text="Viewable Build-Types:"
-                android:textColor="#000"
-                android:textSize="22sp" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Viewable Build-Types:"
+            android:textColor="#000"
+            android:textSize="22sp" />
 
             <CheckBox
                 android:id="@+id/cbOfficial"
@@ -106,6 +106,25 @@
                 android:onClick="NACB"
                 android:text="N/A"
                 android:textColor="@color/colorGrey"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Other Settings:"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/cbDam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:onClick="DamCB"
+                android:text="Disable Advanced Menus"
+                android:textColor="#000"
                 android:textSize="18sp" />
 
         </LinearLayout>

@@ -7,6 +7,8 @@ import android.net.NetworkInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class InternetCheck extends AppCompatActivity {
@@ -28,12 +30,16 @@ public class InternetCheck extends AppCompatActivity {
     }
 
     private void CheckConnection() {
-        if (isNetworkAvailable())
+        if (isNetworkAvailable()) {
+            TextView t = findViewById(R.id.text);
+            Button b = findViewById(R.id.button);
+            t.setVisibility(View.GONE);
+            b.setVisibility(View.GONE);
             startActivity(new Intent(InternetCheck.this, MainActivity.class));
-        else
+        } else
             Toast.makeText(this, R.string.icError, Toast.LENGTH_SHORT).show();
     }
 
-    public void CheckConnectionButton(View view) { CheckConnection();} //Rechecking Internet Connectivity on button click.
+    public void CheckConnectionButton (View view) { CheckConnection(); } //Rechecking Internet Connectivity on button click.
 
 }

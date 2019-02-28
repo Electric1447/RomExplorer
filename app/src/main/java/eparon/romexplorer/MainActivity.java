@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
@@ -23,11 +24,15 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
 import java.net.URL;
+import java.util.Objects;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 public class MainActivity extends AppCompatActivity {
+
+    public String PREFS_RE = "REPrefsFile";
+    SharedPreferences prefs;
 
     Context context;
     ProgressDialog pDialog;
@@ -35,6 +40,12 @@ public class MainActivity extends AppCompatActivity {
 
     Device[] devices;
     Rom[][] roms;
+
+    LinearLayout lLayout;
+    Button b;
+
+    boolean state = true; // Manufacturers = true, Devices = false
+    boolean disableAM = false;
 
     private boolean isNetworkAvailable() {
         ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -44,22 +55,84 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public void onBackPressed() { this.finishAffinity(); }
+    public void onBackPressed() {
+        if (!state)
+            this.finishAffinity();
+        else
+            ViewDevices(devices);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        prefs = getSharedPreferences(PREFS_RE, Context.MODE_PRIVATE);
+
+        disableAM = prefs.getBoolean("disableAM", disableAM);
+        state = !disableAM;
+
         if (!isNetworkAvailable())
             startActivity(new Intent(MainActivity.this, InternetCheck.class));
 
+        lLayout = findViewById(R.id.layout1);
         TextView version = findViewById(R.id.version);
         version.setText(String.format("Version ALPHA %s", BuildConfig.VERSION_NAME.substring(1)));
 
         context = this;
 
         new DownloadRomXML().execute(URL);
+    }
+
+    private void ViewDevices(Device[] dev){
+
+        lLayout.removeAllViews();
+
+        String[] manufacturers = new String[Objects.requireNonNull(Device.getAllManufacturersNames(devices)).length + 1];
+        manufacturers[0] = "ALL DEVICES";
+        System.arraycopy(Objects.requireNonNull(Device.getAllManufacturersNames(devices)), 0, manufacturers, 1, Objects.requireNonNull(Device.getAllManufacturersNames(devices)).length);
+
+        int length = dev.length;
+
+        if (state)
+            length = manufacturers.length;
+
+        for (int i = 0; i < length; i++) {
+            View v = View.inflate(context, R.layout.buttons, null);
+            b = v.findViewById(R.id.button);
+            b.setTag(i);
+
+            if (b.getParent() != null)
+                ((ViewGroup) b.getParent()).removeView(b);
+
+            lLayout.addView(b);
+
+            if (state)
+                b.setText(manufacturers[i]);
+            else
+                b.setText(dev[i].getName());
+
+            final Button finalB = b;
+            b.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    if (!state && !disableAM) {
+                        if (finalB.getText().toString().equals("ALL DEVICES"))
+                            ViewDevices(devices);
+                        else
+                            ViewDevices(Objects.requireNonNull(Device.findDevicesByManufacturer(devices, finalB.getText().toString())));
+                    } else {
+                        Device d = Device.findDeviceByName(devices, finalB.getText().toString());
+                        assert d != null;
+                        Intent a = new Intent(MainActivity.this, DeviceActivity.class);
+                        a.putExtra("DEVICE", d);
+                        startActivity(a);
+                    }
+                }
+            });
+        }
+
+        if (!disableAM)
+            state = !state;
     }
 
     private static String getValue(String tag, Element element) {
@@ -125,6 +198,7 @@ public class MainActivity extends AppCompatActivity {
                                 if (node2.getNodeType() == Node.ELEMENT_NODE) {
                                     Element element3 = (Element) node2;
                                     roms[i][j] = new Rom(getValue("name", element3),
+                                            getValue("version", element3),
                                             getValue("status", element3),
                                             getValue("type", element3),
                                             getValue("url", element3));
@@ -199,33 +273,7 @@ public class MainActivity extends AppCompatActivity {
 
             pDialog.dismiss();
 
-            LinearLayout lLayout;
-            Button b;
-
-            for (int i = 0; i < devices.length; i++) {
-                View v = View.inflate(context, R.layout.buttons, null);
-                b = v.findViewById(R.id.button);
-                b.setTag(i);
-
-                if (b.getParent() != null)
-                    ((ViewGroup) b.getParent()).removeView(b);
-
-                lLayout = findViewById(R.id.layout1);
-                lLayout.addView(b);
-
-                b.setText(devices[i].getName());
-
-                final Button finalB = b;
-                b.setOnClickListener(new View.OnClickListener() {
-                    public void onClick(View v) {
-                        Device d = Device.findDeviceByName(devices, finalB.getText().toString());
-                        assert d != null;
-                        Intent a = new Intent(MainActivity.this, DeviceActivity.class);
-                        a.putExtra("DEVICE", d);
-                        startActivity(a);
-                    }
-                });
-            }
+            ViewDevices(devices);
         }
     }
 
