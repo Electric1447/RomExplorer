@@ -101,7 +101,11 @@ public class DeviceActivity extends AppCompatActivity {
         top.addView(table1);
         int[] tabledimms = new int[5];
 
+        TextView tText1 = findViewById(R.id.top1);
         LinearLayout tText2 = findViewById(R.id.top2);
+        TextView tText3 = findViewById(R.id.top3);
+        TextView tText4 = findViewById(R.id.top4);
+        TextView tText5 = findViewById(R.id.top5);
 
         for (int i = 0; i < cDevice.getRoms().length; i++) {
 
@@ -154,6 +158,7 @@ public class DeviceActivity extends AppCompatActivity {
                     if (unofficialFilter)
                         continue;
                     rType.setTextColor(getResources().getColor(R.color.colorDBlue2));
+                    rType.setTextSize(15f);
                     break;
                 case "N/A":
                     if (naFilter)
@@ -181,6 +186,10 @@ public class DeviceActivity extends AppCompatActivity {
             rName.measure(0, 0);
             if (tabledimms[0] < rName.getMeasuredWidth())
                 tabledimms[0] = rName.getMeasuredWidth();
+            else {
+                tText1.measure(0, 0);
+                rName.setWidth(tText1.getMeasuredWidth());
+            }
             rVersion.measure(0, 0);
             if (tabledimms[1] < rVersion.getMeasuredWidth())
                 tabledimms[1] = rVersion.getMeasuredWidth();
@@ -191,24 +200,36 @@ public class DeviceActivity extends AppCompatActivity {
             rStatus.measure(0, 0);
             if (tabledimms[2] < rStatus.getMeasuredWidth())
                 tabledimms[2] = rStatus.getMeasuredWidth();
+            else {
+                tText3.measure(0, 0);
+                rStatus.setWidth(tText3.getMeasuredWidth());
+            }
             rType.measure(0, 0);
             if (tabledimms[3] < rType.getMeasuredWidth())
                 tabledimms[3] = rType.getMeasuredWidth();
+            else {
+                tText4.measure(0, 0);
+                rType.setWidth(tText4.getMeasuredWidth());
+            }
             rUrl.measure(0, 0);
             if (tabledimms[4] < rUrl.getMeasuredWidth())
                 tabledimms[4] = rUrl.getMeasuredWidth();
+            else {
+                tText5.measure(0, 0);
+                rUrl.setWidth(tText5.getMeasuredWidth());
+            }
         }
 
-        TextView tText1 = findViewById(R.id.top1);
-        TextView tText3 = findViewById(R.id.top3);
-        TextView tText4 = findViewById(R.id.top4);
-        TextView tText5 = findViewById(R.id.top5);
-        tText1.setWidth(tabledimms[0]);
+        if (tabledimms[0] > tText1.getMeasuredWidth())
+            tText1.setWidth(tabledimms[0]);
         if (tabledimms[1] > tText2.getMeasuredWidth())
             tText2.setLayoutParams(new TableRow.LayoutParams(tabledimms[1], TableRow.LayoutParams.WRAP_CONTENT));
-        tText3.setWidth(tabledimms[2]);
-        tText4.setWidth(tabledimms[3]);
-        tText5.setWidth(tabledimms[4]);
+        if (tabledimms[2] > tText3.getMeasuredWidth())
+            tText3.setWidth(tabledimms[2]);
+        if (tabledimms[3] > tText4.getMeasuredWidth())
+            tText4.setWidth(tabledimms[3]);
+        if (tabledimms[4] > tText5.getMeasuredWidth())
+            tText5.setWidth(tabledimms[4]);
     }
 
 }
