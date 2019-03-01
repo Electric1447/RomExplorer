@@ -261,7 +261,7 @@
         </rom>
 
         <rom>
-            <name>Omnirom</name>
+            <name>OmniROM</name>
 			<version>P 9.0</version>
             <status>Stable</status>
             <type>Unofficial</type>
@@ -486,6 +486,84 @@
             <status>Alpha</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/unofficial-pixel-experience-9-0-android-t3885229</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="gt_i9000">
+        <rom>
+            <name>Full Advance</name>
+            <version>MM 6.0.1</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-s-i9000/i9000-development/advance-6-0-1-t3277051</url>
+        </rom>
+
+        <rom>
+            <name>OmniROM</name>
+            <version>MM 6.0.1</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-s-i9000/i9000-development/alpharom-omnirom-6-0-t3261521</url>
+        </rom>
+
+        <rom>
+            <name>OmniROM</name>
+            <version>LP 5.1.1</version>
+            <status>Beta</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-s-i9000/i9000-development/omnirom-5-1-builds-i9000-i9000b-iyahman-t3160768</url>
+        </rom>
+
+        <rom>
+            <name>Cyanogenmod 12</name>
+            <version>LP 5.0.2</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-s-i9000/i9000-development/dev-cyanogenmod-unofficial-t3090593</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 14.1</name>
+            <version>N 7.1.2</version>
+            <status>Beta</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-s-i9000/i9000-development/rom-lineageos-14-1-t3703447</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 11</name>
+            <version>KK 4.4.4</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-s-i9000/i9000-development/rom-lineageos-t3589037</url>
+        </rom>
+
+        <rom>
+            <name>Ehndroix V</name>
+            <version>KK 4.4.4</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/showthread.php?t=2590853</url>
+        </rom>
+
+        <rom>
+            <name>SlimKat</name>
+            <version>KK 4.4.2</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/showthread.php?t=2568363</url>
+        </rom>
+
+        <rom>
+            <name>OmniROM</name>
+            <version>N 7.1.2</version>
+            <status>Beta</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-s-i9000/i9000-development/rom-omnirom-t3816345</url>
         </rom>
     </rom-array>
 	

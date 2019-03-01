@@ -77,6 +77,13 @@
         <manufacturer>Samsung</manufacturer>
         <year>2017</year>
     </device>
+
+    <device name="gt_i9000">
+        <name>Galaxy S (GT-I9000)</name>
+        <codename>galaxysmtd</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2010</year>
+    </device>
 	
     <device name="s4_9500">
         <name>Galaxy S4 (GT-I9500)</name>
