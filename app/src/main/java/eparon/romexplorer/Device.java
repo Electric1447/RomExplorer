@@ -83,6 +83,29 @@ public class Device implements Serializable {
         return temp;
     }
 
+    public static Device[] findDevicesByTag(Device[] dev, String t) {
+
+        int counter = 0;
+        int[] arr = new int[dev.length];
+
+        for (int i = 0; i < dev.length; i++) {
+            if (dev[i].getName().contains(t)) {
+                arr[counter] = i;
+                counter++;
+            }
+        }
+
+        if (counter == 0)
+            return null;
+
+        Device[] temp = new Device[counter];
+
+        for (int i = 0; i < counter; i++)
+            temp[i] = dev[arr[i]];
+
+        return temp;
+    }
+
     public static String[] getAllManufacturersNames(Device[] dev) {
 
         int counter = 0;

@@ -44,8 +44,10 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout lLayout;
     Button b;
 
-    boolean state = true; // Manufacturers = true, Devices = false
+    int layer = 0;
     boolean disableAM = false;
+
+    String[] SamsungTags = new String[] {"Galaxy A Series", "Galaxy S Series", "Galaxy Note Series"};
 
     private boolean isNetworkAvailable() {
         ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -56,10 +58,15 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        if (!state)
+        if (disableAM || layer == 0)
             this.finishAffinity();
-        else
+        else if (layer == 1) {
+            layer = 0;
             ViewDevices(devices);
+        } else if (layer == 2) {
+            layer = 1;
+            SamsungCategoryMode();
+        }
     }
 
     @Override
@@ -70,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         prefs = getSharedPreferences(PREFS_RE, Context.MODE_PRIVATE);
 
         disableAM = prefs.getBoolean("disableAM", disableAM);
-        state = !disableAM;
+
 
         if (!isNetworkAvailable())
             startActivity(new Intent(MainActivity.this, InternetCheck.class));
@@ -94,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
         int length = dev.length;
 
-        if (state)
+        if (!disableAM && layer == 0)
             length = manufacturers.length;
 
         for (int i = 0; i < length; i++) {
@@ -107,20 +114,33 @@ public class MainActivity extends AppCompatActivity {
 
             lLayout.addView(b);
 
-            if (state) {
+            if (!disableAM && layer == 0) {
                 b.setText(manufacturers[i]);
                 b.setAllCaps(true);
-            } else
+            } else {
                 b.setText(dev[i].getName());
+                if (dev[i].getName().length() > 15)
+                    b.setTextSize(15f);
+                if (dev[i].getName().length() > 20)
+                    b.setTextSize(14f);
+            }
 
             final Button finalB = b;
             b.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
-                    if (!state && !disableAM) {
-                        if (finalB.getText().toString().equals("ALL DEVICES"))
-                            ViewDevices(devices);
-                        else
-                            ViewDevices(Objects.requireNonNull(Device.findDevicesByManufacturer(devices, finalB.getText().toString())));
+                    if (!disableAM && layer == 0) {
+                        layer = 1;
+                        switch (finalB.getText().toString()) {
+                            case "ALL DEVICES":
+                                ViewDevices(devices);
+                                break;
+                            case "Samsung":
+                                SamsungCategoryMode();
+                                break;
+                            default:
+                                ViewDevices(Objects.requireNonNull(Device.findDevicesByManufacturer(devices, finalB.getText().toString())));
+                                break;
+                        }
                     } else {
                         Device d = Device.findDeviceByName(devices, finalB.getText().toString());
                         assert d != null;
@@ -131,9 +151,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
-
-        if (!disableAM)
-            state = !state;
     }
 
     private static String getValue(String tag, Element element) {
@@ -144,6 +161,34 @@ public class MainActivity extends AppCompatActivity {
 
     public void goSettings(View view) {
         startActivity(new Intent(MainActivity.this, Settings.class));
+    }
+
+    private void SamsungCategoryMode() {
+
+        lLayout.removeAllViews();
+
+        for (int i = 0; i < SamsungTags.length; i++) {
+            View v = View.inflate(context, R.layout.buttons, null);
+            b = v.findViewById(R.id.button);
+            b.setTag(i);
+
+            if (b.getParent() != null)
+                ((ViewGroup) b.getParent()).removeView(b);
+
+            lLayout.addView(b);
+
+            b.setText(SamsungTags[i]);
+            b.setAllCaps(true);
+
+            final Button finalB = b;
+            b.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    layer = 2;
+                    String s = finalB.getText().toString();
+                    ViewDevices(Objects.requireNonNull(Device.findDevicesByTag(Objects.requireNonNull(Device.findDevicesByManufacturer(devices, "Samsung")), s.substring(7, s.length() - 7))));
+                }
+            });
+        }
     }
 
 
