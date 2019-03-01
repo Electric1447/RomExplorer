@@ -8,49 +8,49 @@
         <year>2014</year>
     </device>
 	
-	<device name="opx">
+    <device name="opx">
         <name>OnePlus X</name>
         <codename>onyx</codename>
         <manufacturer>OnePlus</manufacturer>
         <year>2015</year>
     </device>
 	
-	<device name="op2">
+    <device name="op2">
         <name>OnePlus 2</name>
         <codename>oneplus2</codename>
         <manufacturer>OnePlus</manufacturer>
         <year>2015</year>
     </device>
 	
-	<device name="op3">
+    <device name="op3">
         <name>OnePlus 3</name>
         <codename>oneplus3</codename>
         <manufacturer>OnePlus</manufacturer>
         <year>2016</year>
     </device>
 	
-	<device name="op3t">
+    <device name="op3t">
         <name>OnePlus 3T</name>
         <codename>oneplus3t</codename>
         <manufacturer>OnePlus</manufacturer>
         <year>2016</year>
     </device>
 	
-	<device name="op5">
+    <device name="op5">
         <name>OnePlus 5</name>
         <codename>cheeseburger</codename>
         <manufacturer>OnePlus</manufacturer>
         <year>2017</year>
     </device>
 	
-	<device name="op5t">
+    <device name="op5t">
         <name>OnePlus 5T</name>
         <codename>dumpling</codename>
         <manufacturer>OnePlus</manufacturer>
         <year>2017</year>
     </device>
 	
-	<device name="op6">
+    <device name="op6">
         <name>OnePlus 6</name>
         <codename>enchilada</codename>
         <manufacturer>OnePlus</manufacturer>
@@ -71,56 +71,56 @@
         <year>2017</year>
     </device>
 	
-	<device name="a72017">
+    <device name="a72017">
         <name>Galaxy A7 (2017)</name>
         <codename>a7y17lte</codename>
         <manufacturer>Samsung</manufacturer>
         <year>2017</year>
     </device>
 	
-	<device name="s4_9500">
+    <device name="s4_9500">
         <name>Galaxy S4 (GT-I9500)</name>
         <codename>ja3gxx</codename>
         <manufacturer>Samsung</manufacturer>
         <year>2013</year>
     </device>
 	
-	<device name="s4_9505">
+    <device name="s4_9505">
         <name>Galaxy S4 (GT-I9505)</name>
         <codename>jfltexx</codename>
         <manufacturer>Samsung</manufacturer>
         <year>2013</year>
     </device>
 	
-	<device name="s5">
+    <device name="s5">
         <name>Galaxy S5 (klte)</name>
         <codename>klte</codename>
         <manufacturer>Samsung</manufacturer>
         <year>2014</year>
     </device>
 	
-	<device name="s6">
+    <device name="s6">
         <name>Galaxy S6</name>
         <codename>zerolte</codename>
         <manufacturer>Samsung</manufacturer>
         <year>2015</year>
     </device>
 	
-	<device name="s6e">
+    <device name="s6e">
         <name>Galaxy S6 Edge</name>
         <codename>zero2lte</codename>
         <manufacturer>Samsung</manufacturer>
         <year>2015</year>
     </device>
 	
-	<device name="s7">
+    <device name="s7">
         <name>Galaxy S7</name>
         <codename>herolte</codename>
         <manufacturer>Samsung</manufacturer>
         <year>2016</year>
     </device>
 	
-	<device name="s7e">
+    <device name="s7e">
         <name>Galaxy S7 Edge</name>
         <codename>hero2lte</codename>
         <manufacturer>Samsung</manufacturer>
@@ -134,7 +134,7 @@
         <year>2017</year>
     </device>
 	
-	<device name="s8+">
+    <device name="s8+">
         <name>Galaxy S8+</name>
         <codename>dream2lte</codename>
         <manufacturer>Samsung</manufacturer>
@@ -148,7 +148,7 @@
         <year>2018</year>
     </device>
 	
-	<device name="s9+">
+    <device name="s9+">
         <name>Galaxy S9+</name>
         <codename>star2lte</codename>
         <manufacturer>Samsung</manufacturer>
