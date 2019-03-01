@@ -107,9 +107,10 @@ public class MainActivity extends AppCompatActivity {
 
             lLayout.addView(b);
 
-            if (state)
+            if (state) {
                 b.setText(manufacturers[i]);
-            else
+                b.setAllCaps(true);
+            } else
                 b.setText(dev[i].getName());
 
             final Button finalB = b;
