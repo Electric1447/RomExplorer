@@ -485,6 +485,60 @@
 
 
 
+    <rom-array name="s8+">
+        <rom>
+            <name>Renovate ICE</name>
+			<version>8.0</version>
+            <status>Stable    </status>
+            <type>N/A    </type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-renovate-ice-10-1-oxygenos-9-0-3-9-t3893372</url>
+        </rom>
+
+        <rom>
+            <name>SoLdieR9312s ROM</name>
+			<version>9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/g95xf-fd-n-oreo-beta-2-soldier9312-zqk4-t3703183</url>
+        </rom>
+
+        <rom>
+            <name>GoogleWiz</name>
+			<version>8.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-googlewiz-oreo-extreme-debloat-t3750641</url>
+        </rom>
+
+        <rom>
+            <name>LightROM</name>
+			<version>9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/teamexykings-lightrom-t3891294</url>
+        </rom>
+
+        <rom>
+            <name>LightROM (S9 Port)</name>
+			<version>8.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-lightrom-t3758681</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 15.1</name>
+			<version>8.1</version>
+            <status>Alpha</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-lineageos-15-1-t3899829</url>
+        </rom>
+    </rom-array>
+	
+	
+	
+	
+	
     <rom-array name="s9">
         <rom>
             <name>googel      </name>
@@ -503,4 +557,26 @@
         </rom>
     </rom-array>
 
+
+
+
+
+    <rom-array name="s9+">
+        <rom>
+            <name>googel      </name>
+			<version>8.1</version>
+            <status>Beta      </status>
+            <type>N/A      </type>
+            <url>https://archive.org/</url>
+        </rom>
+
+        <rom>
+            <name>googel</name>
+			<version>8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://archive.org/</url>
+        </rom>
+    </rom-array>
+	
 </roms>
