@@ -184,46 +184,45 @@ public class DeviceActivity extends AppCompatActivity {
             });
 
             rName.measure(0, 0);
+            tText1.measure(0, 0);
             if (tabledimms[0] < rName.getMeasuredWidth())
                 tabledimms[0] = rName.getMeasuredWidth();
-            else {
-                tText1.measure(0, 0);
+            else
                 rName.setWidth(tText1.getMeasuredWidth());
-            }
+
             rVersion.measure(0, 0);
+            tText2.measure(0, 0);
             if (tabledimms[1] < rVersion.getMeasuredWidth())
                 tabledimms[1] = rVersion.getMeasuredWidth();
-            else {
-                tText2.measure(0, 0);
+            else
                 rVersion.setWidth(tText2.getMeasuredWidth());
-            }
+
             rStatus.measure(0, 0);
+            tText3.measure(0, 0);
             if (tabledimms[2] < rStatus.getMeasuredWidth())
                 tabledimms[2] = rStatus.getMeasuredWidth();
-            else {
-                tText3.measure(0, 0);
+            else
                 rStatus.setWidth(tText3.getMeasuredWidth());
-            }
+
             rType.measure(0, 0);
+            tText4.measure(0, 0);
             if (tabledimms[3] < rType.getMeasuredWidth())
                 tabledimms[3] = rType.getMeasuredWidth();
-            else {
-                tText4.measure(0, 0);
+            else
                 rType.setWidth(tText4.getMeasuredWidth());
-            }
+
             rUrl.measure(0, 0);
+            tText5.measure(0, 0);
             if (tabledimms[4] < rUrl.getMeasuredWidth())
                 tabledimms[4] = rUrl.getMeasuredWidth();
-            else {
-                tText5.measure(0, 0);
+            else
                 rUrl.setWidth(tText5.getMeasuredWidth());
-            }
         }
 
         if (tabledimms[0] > tText1.getMeasuredWidth())
             tText1.setWidth(tabledimms[0]);
         if (tabledimms[1] > tText2.getMeasuredWidth())
-            tText2.setLayoutParams(new TableRow.LayoutParams(tabledimms[1], TableRow.LayoutParams.WRAP_CONTENT));
+            tText2.setLayoutParams(new TableRow.LayoutParams(tabledimms[1], tText2.getMeasuredHeight()));
         if (tabledimms[2] > tText3.getMeasuredWidth())
             tText3.setWidth(tabledimms[2]);
         if (tabledimms[3] > tText4.getMeasuredWidth())
