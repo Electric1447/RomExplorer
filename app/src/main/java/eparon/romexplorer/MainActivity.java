@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
@@ -116,7 +117,16 @@ public class MainActivity extends AppCompatActivity {
 
             if (!disableAM && layer == 0) {
                 b.setText(manufacturers[i]);
-                b.setAllCaps(true);
+                int resID = getResources().getIdentifier(manufacturers[i].toLowerCase().replaceAll("\\s+", "") + "_logo", "drawable", getPackageName());
+                b.setBackgroundResource(resID);
+                if (b.getBackground() == null) {
+                    b.setBackgroundResource(R.drawable.px400_empty);
+                    b.setTextSize(40f);
+                    b.setTypeface(Typeface.defaultFromStyle(Typeface.BOLD));
+                } else
+                    b.setTextColor(0x00000000);
+                b.getLayoutParams().height = 240;
+                b.getLayoutParams().width = 960;
             } else {
                 b.setText(dev[i].getName());
                 if (dev[i].getName().length() > 15)
