@@ -70,6 +70,41 @@
         <manufacturer>Samsung</manufacturer>
         <year>2017</year>
     </device>
+	
+	<device name="a72017">
+        <name>Galaxy A7 (2017)</name>
+        <codename>a7y17lte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2017</year>
+    </device>
+	
+	<device name="s6">
+        <name>Galaxy S6</name>
+        <codename>zerolte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2015</year>
+    </device>
+	
+	<device name="s6e">
+        <name>Galaxy S6 Edge</name>
+        <codename>zero2lte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2015</year>
+    </device>
+	
+	<device name="s7">
+        <name>Galaxy S7</name>
+        <codename>herolte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2016</year>
+    </device>
+	
+	<device name="s7e">
+        <name>Galaxy S7 Edge</name>
+        <codename>hero2lte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2016</year>
+    </device>
 
     <device name="s8">
         <name>Galaxy S8</name>
