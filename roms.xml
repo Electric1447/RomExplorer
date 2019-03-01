@@ -372,7 +372,7 @@
 
         <rom>
             <name>hadesRom (Stock)</name>
-			<version>8.0</version>
+			<version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-oreo-hadesrom-stock-t3779567</url>
@@ -380,7 +380,7 @@
 		
 		<rom>
             <name>hadesRom (S9+ Port)</name>
-			<version>8.0</version>
+			<version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-hadesrom-s9-port-v1-0-t3816635</url>
@@ -450,7 +450,7 @@
 
         <rom>
             <name>hadesRom (Stock)</name>
-			<version>8.0</version>
+			<version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-oreo-hadesrom-stock-t3779567</url>
@@ -458,7 +458,7 @@
 		
 		<rom>
             <name>hadesRom (S9+ Port)</name>
-			<version>8.0</version>
+			<version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-hadesrom-s9-port-v1-0-t3816635</url>
@@ -616,7 +616,7 @@
     <rom-array name="s8">
         <rom>
             <name>Renovate ICE</name>
-			<version>8.0</version>
+			<version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-renovate-ice-10-1-oxygenos-9-0-3-9-t3893372</url>
@@ -632,7 +632,7 @@
 
         <rom>
             <name>GoogleWiz</name>
-			<version>8.0</version>
+			<version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-googlewiz-oreo-extreme-debloat-t3750641</url>
@@ -648,7 +648,7 @@
 
         <rom>
             <name>LightROM (S9 Port)</name>
-			<version>8.0</version>
+			<version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-lightrom-t3758681</url>
@@ -670,7 +670,7 @@
     <rom-array name="s8+">
         <rom>
             <name>Renovate ICE</name>
-			<version>8.0</version>
+			<version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-renovate-ice-10-1-oxygenos-9-0-3-9-t3893372</url>
@@ -686,7 +686,7 @@
 
         <rom>
             <name>GoogleWiz</name>
-			<version>8.0</version>
+			<version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-googlewiz-oreo-extreme-debloat-t3750641</url>
@@ -702,7 +702,7 @@
 
         <rom>
             <name>LightROM (S9 Port)</name>
-			<version>8.0</version>
+			<version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-lightrom-t3758681</url>
