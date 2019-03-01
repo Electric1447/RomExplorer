@@ -185,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     layer = 2;
                     String s = finalB.getText().toString();
-                    ViewDevices(Objects.requireNonNull(Device.findDevicesByTag(Objects.requireNonNull(Device.findDevicesByManufacturer(devices, "Samsung")), s.substring(7, s.length() - 7))));
+                    ViewDevices(Objects.requireNonNull(Device.findDevicesByTag(Objects.requireNonNull(Device.findDevicesByManufacturer(devices, "Samsung")), s.substring(0, s.length() - 7))));
                 }
             });
         }
