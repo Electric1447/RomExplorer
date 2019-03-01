@@ -85,6 +85,20 @@
         <year>2010</year>
     </device>
 	
+    <device name="s2">
+        <name>Galaxy S II</name>
+        <codename>i9100</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2011</year>
+    </device>
+	
+    <device name="s3">
+        <name>Galaxy S III</name>
+        <codename>i9300</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2012</year>
+    </device>
+	
     <device name="s4_9500">
         <name>Galaxy S4 (GT-I9500)</name>
         <codename>ja3gxx</codename>
@@ -158,6 +172,69 @@
     <device name="s9+">
         <name>Galaxy S9+</name>
         <codename>star2lte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2018</year>
+    </device>
+
+    <device name="note1">
+        <name>Galaxy Note</name>
+        <codename>n7000</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2011</year>
+    </device>
+	
+    <device name="note2_n7100">
+        <name>Galaxy Note II (N7100)</name>
+        <codename>t03g</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2012</year>
+    </device>
+	
+    <device name="note2_n7105">
+        <name>Galaxy Note II (N7105)</name>
+        <codename>t0lte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2012</year>
+    </device>
+	
+    <device name="note3">
+        <name>Galaxy Note 3</name>
+        <codename>ha3g</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2013</year>
+    </device>
+	
+    <device name="note3lte">
+        <name>Galaxy Note 3 (LTE)</name>
+        <codename>hlte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2013</year>
+    </device>
+	
+    <device name="note4sd">
+        <name>Galaxy Note 4 (Snapdragon)</name>
+        <codename>trlte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2014</year>
+    </device>
+	
+    <device name="note5">
+        <name>Galaxy Note 5</name>
+        <codename>noblelte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2015</year>
+    </device>
+	
+    <device name="note8">
+        <name>Galaxy Note 8</name>
+        <codename>greatlte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2017</year>
+    </device>
+	
+    <device name="note9">
+        <name>Galaxy Note 9</name>
+        <codename>crownlte</codename>
         <manufacturer>Samsung</manufacturer>
         <year>2018</year>
     </device>

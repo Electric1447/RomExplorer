@@ -936,5 +936,203 @@
             <url>https://www.xda-developers.com/</url>
         </rom>
     </rom-array>
-	
+
+
+
+
+
+    <rom-array name="note1">
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="note2_n7100">
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="note2_n7105">
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="note3">
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="note3lte">
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="note4sd">
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="note5">
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="note8">
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="note9">
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
 </roms>
