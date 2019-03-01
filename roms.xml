@@ -283,15 +283,15 @@
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-lineageos-16-0-t3897334</url>
         </rom>
-
-        <rom>
-            <name>LiquidRemix</name>
+		 
+	<rom>
+            <name>SkyDragon OS</name>
 			<version>P 9.0</version>
             <status>Stable</status>
             <type>Official</type>
-            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-liquidremix-t3888697</url>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-skydragon-os-t3905311</url>
         </rom>
-
+	    
         <rom>
             <name>POSP</name>
 			<version>P 9.0</version>
@@ -299,7 +299,15 @@
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-posp-v2-1-fajita-t3894480</url>
         </rom>
-
+	    
+        <rom>
+            <name>LiquidRemix</name>
+			<version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-liquidremix-t3888697</url>
+        </rom>
+	    
         <rom>
             <name>Pixel Experience</name>
 			<version>P 9.0</version>
