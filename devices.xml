@@ -78,6 +78,27 @@
         <year>2017</year>
     </device>
 	
+	<device name="s4_9500">
+        <name>Galaxy S4 (GT-I9500)</name>
+        <codename>ja3gxx</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2013</year>
+    </device>
+	
+	<device name="s4_9505">
+        <name>Galaxy S4 (GT-I9505)</name>
+        <codename>jfltexx</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2013</year>
+    </device>
+	
+	<device name="s5">
+        <name>Galaxy S5 (klte)</name>
+        <codename>klte</codename>
+        <manufacturer>Samsung</manufacturer>
+        <year>2014</year>
+    </device>
+	
 	<device name="s6">
         <name>Galaxy S6</name>
         <codename>zerolte</codename>

@@ -493,6 +493,104 @@
 	
 	
 	
+	<rom-array name="s4_9500">
+        <rom>
+            <name>RRemix 5.8.5</name>
+			<version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/galaxy-s4/i9500-develop/resurrection-remix-n-t3650856</url>
+        </rom>
+
+        <rom>
+            <name>AOKP</name>
+			<version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-s4/i9500-develop/rom-aokp-n-t3620350</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 14.1</name>
+			<version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-s4/i9500-develop/lineage-os-14-1-modded-i9500-t3637504</url>
+        </rom>
+		
+		<rom>
+            <name>Phoenix Grace</name>
+			<version>LP 5.0.1</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-s4/i9500-develop/jar-team-phoenix-grace-rom-v1-0-t3710718</url>
+        </rom>
+    </rom-array>
+	
+	
+	
+	
+	
+	<rom-array name="s4_9505">
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+	
+	
+	
+	
+	
+	<rom-array name="s5">
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+			<version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+	
+	
+	
+	
+	
 	<rom-array name="s6">
         <rom>
             <name>Placeholder</name>
