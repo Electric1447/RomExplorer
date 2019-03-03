@@ -1369,19 +1369,51 @@
 
     <rom-array name="note8">
         <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
+            <name>hadesRom</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
             <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <url>https://forum.xda-developers.com/galaxy-note-8/development/rom-hadesrom-pie-stock-v1-0-t3890210</url>
         </rom>
 
         <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
+            <name>LightROM</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
             <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <url>https://forum.xda-developers.com/galaxy-note-8/development/teamexykings-lightrom-t3899523</url>
+        </rom>
+
+        <rom>
+            <name>LightROM (S9 Port)</name>
+            <version>O 8.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note-8/development/teamexykings-lightrom-t3799322</url>
+        </rom>
+
+        <rom>
+            <name>DeluxeROM</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note-8/development/n950f-g955f-g950f-deluxerom-v6-0-t3784712</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 15.1</name>
+            <version>O 8.1</version>
+            <status>Alpha</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-8/development/rom-lineageos-15-1-t3899831</url>
+        </rom>
+
+        <rom>
+            <name>PixelPie</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note-8/development/rom-team-pixel-pie-v1-0-t3906396</url>
         </rom>
     </rom-array>
 
@@ -1392,7 +1424,7 @@
     <rom-array name="note9">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1400,7 +1432,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
