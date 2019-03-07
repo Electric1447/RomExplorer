@@ -42,7 +42,8 @@ public class MainActivity extends AppCompatActivity {
     Device[] devices;
     Rom[][] roms;
 
-    LinearLayout lLayout;
+    LinearLayout lLayout[] = new LinearLayout[3];
+    int layoutInt = 0;
     Button b;
 
     int layer = 0;
@@ -83,7 +84,9 @@ public class MainActivity extends AppCompatActivity {
         if (!isNetworkAvailable())
             startActivity(new Intent(MainActivity.this, InternetCheck.class));
 
-        lLayout = findViewById(R.id.layout1);
+        lLayout[0] = findViewById(R.id.layout1);
+        lLayout[1] = findViewById(R.id.layout2);
+        lLayout[2] = findViewById(R.id.layout3);
         TextView version = findViewById(R.id.version);
         version.setText(String.format("Version ALPHA %s", BuildConfig.VERSION_NAME.substring(1)));
 
@@ -94,7 +97,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void ViewDevices(Device[] dev){
 
-        lLayout.removeAllViews();
+        layoutInt = 0;
+        lLayout[0].removeAllViews();
+        lLayout[1].removeAllViews();
+        lLayout[2].removeAllViews();
 
         String[] manufacturers = new String[Objects.requireNonNull(Device.getAllManufacturersNames(devices)).length + 1];
         manufacturers[0] = "ALL DEVICES";
@@ -113,7 +119,12 @@ public class MainActivity extends AppCompatActivity {
             if (b.getParent() != null)
                 ((ViewGroup) b.getParent()).removeView(b);
 
-            lLayout.addView(b);
+            if (!disableAM && layer != 0) {
+                layoutInt = i % 2 + 1;
+                b.getLayoutParams().width = ViewGroup.LayoutParams.MATCH_PARENT;
+            }
+
+            lLayout[layoutInt].addView(b);
 
             if (!disableAM && layer == 0) {
                 b.setText(manufacturers[i]);
@@ -175,7 +186,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void SamsungCategoryMode() {
 
-        lLayout.removeAllViews();
+        layoutInt = 0;
+        lLayout[0].removeAllViews();
+        lLayout[1].removeAllViews();
+        lLayout[2].removeAllViews();
 
         for (int i = 0; i < SamsungTags.length; i++) {
             View v = View.inflate(context, R.layout.buttons, null);
@@ -185,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
             if (b.getParent() != null)
                 ((ViewGroup) b.getParent()).removeView(b);
 
-            lLayout.addView(b);
+            lLayout[0].addView(b);
 
             b.setText(SamsungTags[i]);
             b.setAllCaps(true);
