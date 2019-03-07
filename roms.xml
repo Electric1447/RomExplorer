@@ -1,10 +1,230 @@
 <?xml version="1.0" encoding="utf-8"?>
 <roms>
 
+    <rom-array name="galaxynexus">
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="nexus4">
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="nexus5">
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="nexus5x">
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="nexus6">
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="nexus6p">
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="pixel">
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="pixelxl">
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="pixel2">
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="pixel2xl">
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
     <rom-array name="op1">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -12,7 +232,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -20,7 +240,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -283,15 +503,15 @@
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-lineageos-16-0-t3897334</url>
         </rom>
-
-        <rom>
-            <name>LiquidRemix</name>
+		 
+	<rom>
+            <name>SkyDragon OS</name>
 			<version>P 9.0</version>
             <status>Stable</status>
             <type>Official</type>
-            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-liquidremix-t3888697</url>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-skydragon-os-t3905311</url>
         </rom>
-
+	    
         <rom>
             <name>POSP</name>
 			<version>P 9.0</version>
@@ -299,7 +519,15 @@
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-posp-v2-1-fajita-t3894480</url>
         </rom>
-
+	    
+        <rom>
+            <name>LiquidRemix</name>
+			<version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-liquidremix-t3888697</url>
+        </rom>
+	    
         <rom>
             <name>Pixel Experience</name>
 			<version>P 9.0</version>
@@ -987,19 +1215,67 @@
 
     <rom-array name="note1">
         <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <name>RRemix 5.8.5</name>
+            <version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/galaxy-note/development/rom-resurrection-remix-v5-8-2-t3597172</url>
         </rom>
 
         <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
+            <name>NightOwl (N)</name>
+            <version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note/development/rom-nightowl-preview-t3455847</url>
+        </rom>
+
+        <rom>
+            <name>NightOwl (O)</name>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <url>https://forum.xda-developers.com/galaxy-note/development/rom-nightowl-alpha1-t3770815</url>
+        </rom>
+
+        <rom>
+            <name>NightOwl (MM)</name>
+            <version>MM 6.0.1</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note/development/rom-nightowl-alpha1-t3255536</url>
+        </rom>
+
+        <rom>
+            <name>NightOwl (LP)</name>
+            <version>LP 5.1.1</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note/development/rom-t2938649</url>
+        </rom>
+
+        <rom>
+            <name>NightOwl (KK)</name>
+            <version>KK 4.4.4</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note/development/rom-nightowl-cm11-20150909-t3197117</url>
+        </rom>
+
+        <rom>
+            <name>Dirty Unicorns</name>
+            <version>KK 4.4.4</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/showthread.php?t=2633846</url>
+        </rom>
+
+        <rom>
+            <name>Spirit</name>
+            <version>KK 4.4.4</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/galaxy-note/development/rom-2014-08-17-t2850716</url>
         </rom>
     </rom-array>
 
@@ -1010,7 +1286,7 @@
     <rom-array name="note2_n7100">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1018,7 +1294,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1032,7 +1308,7 @@
     <rom-array name="note2_n7105">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1040,7 +1316,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1054,7 +1330,7 @@
     <rom-array name="note3">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1062,7 +1338,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1076,7 +1352,7 @@
     <rom-array name="note3lte">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1084,7 +1360,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1098,7 +1374,7 @@
     <rom-array name="note4sd">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1106,7 +1382,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1120,7 +1396,7 @@
     <rom-array name="note5">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1128,7 +1404,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1141,19 +1417,51 @@
 
     <rom-array name="note8">
         <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
+            <name>hadesRom</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
             <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <url>https://forum.xda-developers.com/galaxy-note-8/development/rom-hadesrom-pie-stock-v1-0-t3890210</url>
         </rom>
 
         <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
+            <name>LightROM</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
             <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <url>https://forum.xda-developers.com/galaxy-note-8/development/teamexykings-lightrom-t3899523</url>
+        </rom>
+
+        <rom>
+            <name>LightROM (S9 Port)</name>
+            <version>O 8.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note-8/development/teamexykings-lightrom-t3799322</url>
+        </rom>
+
+        <rom>
+            <name>DeluxeROM</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note-8/development/n950f-g955f-g950f-deluxerom-v6-0-t3784712</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 15.1</name>
+            <version>O 8.1</version>
+            <status>Alpha</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-8/development/rom-lineageos-15-1-t3899831</url>
+        </rom>
+
+        <rom>
+            <name>PixelPie</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note-8/development/rom-team-pixel-pie-v1-0-t3906396</url>
         </rom>
     </rom-array>
 
@@ -1164,7 +1472,7 @@
     <rom-array name="note9">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1172,7 +1480,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>

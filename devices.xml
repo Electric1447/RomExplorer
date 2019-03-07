@@ -1,6 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <devices>
 
+    <device name="galaxynexus">
+        <name>Galaxy Nexus (GSM)</name>
+        <codename>maguro</codename>
+        <manufacturer>Google</manufacturer>
+        <year>2011</year>
+    </device>
+
+    <device name="nexus4">
+        <name>Nexus 4</name>
+        <codename>mako</codename>
+        <manufacturer>Google</manufacturer>
+        <year>2012</year>
+    </device>
+	
+    <device name="nexus5">
+        <name>Nexus 5</name>
+        <codename>hammerhead</codename>
+        <manufacturer>Google</manufacturer>
+        <year>2013</year>
+    </device>
+
+    <device name="nexus5x">
+        <name>Nexus 5X</name>
+        <codename>bullhead</codename>
+        <manufacturer>Google</manufacturer>
+        <year>2015</year>
+    </device>
+	
+    <device name="nexus6">
+        <name>Nexus 6</name>
+        <codename>shamu</codename>
+        <manufacturer>Google</manufacturer>
+        <year>2014</year>
+    </device>
+
+    <device name="nexus6p">
+        <name>Nexus 6P</name>
+        <codename>angler</codename>
+        <manufacturer>Google</manufacturer>
+        <year>2015</year>
+    </device>
+	
+    <device name="pixel">
+        <name>Pixel</name>
+        <codename>sailfish</codename>
+        <manufacturer>Google</manufacturer>
+        <year>2016</year>
+    </device>
+
+    <device name="pixelxl">
+        <name>Pixel XL</name>
+        <codename>dragon</codename>
+        <manufacturer>Google</manufacturer>
+        <year>2016</year>
+    </device>
+	
+    <device name="pixel2">
+        <name>Pixel 2</name>
+        <codename>walleye</codename>
+        <manufacturer>Google</manufacturer>
+        <year>2017</year>
+    </device>
+
+    <device name="pixel2xl">
+        <name>Pixel 2 XL</name>
+        <codename>taimen</codename>
+        <manufacturer>Google</manufacturer>
+        <year>2017</year>
+    </device>
+
     <device name="op1">
         <name>OnePlus One</name>
         <codename>bacon</codename>
