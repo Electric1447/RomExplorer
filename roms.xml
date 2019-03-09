@@ -1072,7 +1072,7 @@
     <rom-array name="s8">
         <rom>
             <name>Renovate ICE</name>
-            version>O 8.0</version>
+            <version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-renovate-ice-10-1-oxygenos-9-0-3-9-t3893372</url>
@@ -1126,7 +1126,7 @@
     <rom-array name="s8+">
         <rom>
             <name>Renovate ICE</name>
-            version>O 8.0</version>
+            <version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-renovate-ice-10-1-oxygenos-9-0-3-9-t3893372</url>
