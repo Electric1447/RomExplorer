@@ -288,13 +288,6 @@
         <year>2014</year>
     </device>
 	
-    <device name="note5">
-        <name>Galaxy Note 5</name>
-        <codename>noblelte</codename>
-        <manufacturer>Samsung</manufacturer>
-        <year>2015</year>
-    </device>
-	
     <device name="note8">
         <name>Galaxy Note 8</name>
         <codename>greatlte</codename>
