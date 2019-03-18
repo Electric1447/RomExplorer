@@ -575,6 +575,14 @@
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-arrowos-9-x-t3906737</url>
         </rom>
+	    
+	<rom>
+            <name>Syberia</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-syberia-project-t3911727</url>
+        </rom>
 
         <rom>
             <name>CypherOS 7.0.0</name>
