@@ -1309,19 +1309,75 @@
 
     <rom-array name="note2_n7100">
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <name>RRemix 5.8.0</name>
+            <version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-resurrection-remix-t3532859</url>
         </rom>
 
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
+            <name>CosmicOS 1.4</name>
+            <version>N 7.1.1</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-cosmic-os-v1-4-t3572786</url>
+        </rom>
+
+        <rom>
+            <name>XenonHD 7.1</name>
+            <version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/official-xenonhd-7-1-t3579771</url>
+        </rom>
+
+        <rom>
+            <name>AICP 12.1</name>
+            <version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-aicp-12-1-t3884692</url>
+        </rom>
+
+        <rom>
+            <name>dotOS</name>
+            <version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-dotos-v1-2-t3776443</url>
+        </rom>
+
+        <rom>
+            <name>ViperOS</name>
+            <version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-viperos-rom-samsung-note-ii-oms-t3666234</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 14.1</name>
+            <version>N 7.1.2</version>
             <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/orig-development/rom-cyanogenmod-14-0-n7100-t3487568</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 15.1</name>
+            <version>O 8.1</version>
+            <status>Alpha</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-lineageos-15-1-t3871393</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Alpha</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-lineageos-16-0-20190112-comico-t3889281</url>
         </rom>
     </rom-array>
 
