@@ -599,6 +599,14 @@
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/bootleggersrom-4-0-stable-t3894698</url>
         </rom>
+
+        <rom>
+            <name>RomAur</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/20-01-romaur-v1-0-fast-stable-t3891618</url>
+        </rom>
     </rom-array>
 	
 
