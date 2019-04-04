@@ -607,8 +607,16 @@
             <type>N/A</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/20-01-romaur-v1-0-fast-stable-t3891618</url>
         </rom>
+
+        <rom>
+            <name>xXx NoLimits</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/oneplus-6/development/rom-xxx-nolimits-1-0-speed-ram-optimized-t3799167</url>
+        </rom>
     </rom-array>
-	
+
 
 
 
