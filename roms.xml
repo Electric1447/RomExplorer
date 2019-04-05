@@ -253,19 +253,19 @@
 
     <rom-array name="opx">
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
+            <name>POSP</name>
+            <version>P 9.0</version>
             <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-x/development/rom-potato-sauce-project-t3886905/</url>
         </rom>
 
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
+            <name>RRemix 7.0.1</name>
+            <version>P 9.0</version>
             <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-x/development/9-0-resurrection-remix-v7-0-t3894546/</url>
         </rom>
 
         <rom>
