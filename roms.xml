@@ -231,11 +231,11 @@
         </rom>
 
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
+            <name>POSP</name>
+            <version>P 9.0</version>
             <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-one/orig-development/rom-posp-v2-0-beta-t3830896</url>
         </rom>
 
         <rom>
@@ -290,11 +290,11 @@
         </rom>
 
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
+            <name>POSP</name>
+            <version>P 9.0</version>
             <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-2/development/rom-posp-v1-0-beta-t3806362</url>
         </rom>
 
         <rom>
