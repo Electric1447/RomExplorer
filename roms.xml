@@ -223,11 +223,11 @@
 
     <rom-array name="op1">
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/bacon</url>
         </rom>
 
         <rom>
@@ -282,11 +282,11 @@
 
     <rom-array name="op2">
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/oneplus2</url>
         </rom>
 
         <rom>
@@ -311,11 +311,11 @@
 
     <rom-array name="op3">
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/oneplus3</url>
         </rom>
 
         <rom>
@@ -340,11 +340,11 @@
 
     <rom-array name="op3t">
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/oneplus3</url>
         </rom>
 
         <rom>
@@ -369,11 +369,11 @@
 
     <rom-array name="op5">
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/cheeseburger</url>
         </rom>
 
         <rom>
@@ -398,11 +398,11 @@
 
     <rom-array name="op5t">
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/dumpling</url>
         </rom>
 
         <rom>
