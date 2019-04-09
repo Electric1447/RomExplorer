@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         lLayout[1] = findViewById(R.id.layout2);
         lLayout[2] = findViewById(R.id.layout3);
         TextView version = findViewById(R.id.version);
-        version.setText(String.format("Version ALPHA %s", BuildConfig.VERSION_NAME.substring(1)));
+        version.setText(String.format("Version BETA %s", BuildConfig.VERSION_NAME.substring(1)));
 
         context = this;
 
@@ -243,7 +243,6 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(String[] Url) {
             try {
-
                     URL url = new URL(Url[1]);
                     DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
                     DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -276,7 +275,6 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }
                     }
-
             } catch (Exception e) {
                 Log.e("Error", e.getMessage());
                 e.printStackTrace();
@@ -307,7 +305,6 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(String[] Url) {
             try {
-
                 URL url = new URL(Url[0]);
                 DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
                 DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -330,7 +327,6 @@ public class MainActivity extends AppCompatActivity {
                                 roms[i]);
                     }
                 }
-
             } catch (Exception e) {
                 Log.e("Error", e.getMessage());
                 e.printStackTrace();
