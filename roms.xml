@@ -223,19 +223,19 @@
 
     <rom-array name="op1">
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/bacon</url>
         </rom>
 
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
+            <name>POSP</name>
+            <version>P 9.0</version>
             <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-one/orig-development/rom-posp-v2-0-beta-t3830896</url>
         </rom>
 
         <rom>
@@ -253,24 +253,24 @@
 
     <rom-array name="opx">
         <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
+            <name>POSP</name>
+            <version>P 9.0</version>
             <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-x/development/rom-potato-sauce-project-t3886905/</url>
+        </rom>
+
+        <rom>
+            <name>RRemix 7.0.1</name>
+            <version>P 9.0</version>
+            <status>Beta</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-x/development/9-0-resurrection-remix-v7-0-t3894546/</url>
         </rom>
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
-        </rom>
-
-        <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -282,24 +282,24 @@
 
     <rom-array name="op2">
         <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/oneplus2</url>
+        </rom>
+
+        <rom>
+            <name>POSP</name>
+            <version>P 9.0</version>
             <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-2/development/rom-posp-v1-0-beta-t3806362</url>
         </rom>
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
-        </rom>
-
-        <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -311,8 +311,16 @@
 
     <rom-array name="op3">
         <rom>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/oneplus3</url>
+        </rom>
+
+        <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -320,15 +328,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
-        </rom>
-
-        <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -340,8 +340,16 @@
 
     <rom-array name="op3t">
         <rom>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/oneplus3</url>
+        </rom>
+
+        <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -349,15 +357,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
-        </rom>
-
-        <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -369,8 +369,16 @@
 
     <rom-array name="op5">
         <rom>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/cheeseburger</url>
+        </rom>
+
+        <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -378,15 +386,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
-        </rom>
-
-        <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -398,8 +398,16 @@
 
     <rom-array name="op5t">
         <rom>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/dumpling</url>
+        </rom>
+
+        <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -407,15 +415,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
-        </rom>
-
-        <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -428,7 +428,7 @@
     <rom-array name="op6">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -436,7 +436,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -444,7 +444,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -458,7 +458,7 @@
     <rom-array name="op6t">
         <rom>
             <name>HavocOS</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-havoc-os-t3883547</url>
@@ -466,7 +466,7 @@
 
         <rom>
             <name>Renovate ICE</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-renovate-ice-10-1-oxygenos-9-0-3-9-t3893372</url>
@@ -474,7 +474,7 @@
 
         <rom>
             <name>AOSiP</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Beta</status>
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-android-source-illusion-project-t3878204</url>
@@ -482,15 +482,15 @@
 
         <rom>
             <name>OmniROM</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-omnirom-oneplus6t-t3888582</url>
         </rom>
 
         <rom>
-            <name>RRemix 7.0.0</name>
-			<version>P 9.0</version>
+            <name>RRemix 7.0.1</name>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-unofficial-ressurection-remix-t3892779</url>
@@ -498,7 +498,7 @@
 
         <rom>
             <name>LineageOS 16.0</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Beta</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-lineageos-16-0-t3897334</url>
@@ -506,7 +506,7 @@
 		 
 	<rom>
             <name>SkyDragon OS</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-skydragon-os-t3905311</url>
@@ -514,15 +514,15 @@
 	    
         <rom>
             <name>POSP</name>
-			<version>P 9.0</version>
-            <status>Beta</status>
+            <version>P 9.0</version>
+            <status>Stable</status>
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-posp-v2-1-fajita-t3894480</url>
         </rom>
 	    
         <rom>
             <name>LiquidRemix</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-liquidremix-t3888697</url>
@@ -530,15 +530,15 @@
 	    
         <rom>
             <name>Pixel Experience</name>
-			<version>P 9.0</version>
-            <status>Beta</status>
+            <version>P 9.0</version>
+            <status>Stable</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-pixel-experience-t3875179</url>
         </rom>
 
         <rom>
             <name>DotOS</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-dotos-t3903254</url>
@@ -546,7 +546,7 @@
 
         <rom>
             <name>Paranoid Android</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Beta</status>
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/paranoid-android-pie-beta-oneplus-6t-t3903305</url>
@@ -554,7 +554,7 @@
 
         <rom>
             <name>CarbonROM</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Beta</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/9-carbonrom-cr-7-0-t3897320</url>
@@ -562,15 +562,31 @@
 
         <rom>
             <name>crDroid 5.1</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Beta</status>
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/official-romcrdroid-09-02-19-t3898685</url>
         </rom>
 
         <rom>
+            <name>ArrowOS</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-arrowos-9-x-t3906737</url>
+        </rom>
+	    
+	<rom>
+            <name>Syberia</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-syberia-project-t3911727</url>
+        </rom>
+
+        <rom>
             <name>CypherOS 7.0.0</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Beta</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-cypheros-7-0-0-t3898223</url>
@@ -578,13 +594,29 @@
 
         <rom>
             <name>BootleggersROM</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/bootleggersrom-4-0-stable-t3894698</url>
         </rom>
+
+        <rom>
+            <name>RomAur</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/20-01-romaur-v1-0-fast-stable-t3891618</url>
+        </rom>
+
+        <rom>
+            <name>xXx NoLimits</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/oneplus-6/development/rom-xxx-nolimits-1-0-speed-ram-optimized-t3799167</url>
+        </rom>
     </rom-array>
-	
+
 
 
 
@@ -592,7 +624,7 @@
     <rom-array name="a52017">
         <rom>
             <name>LineageOS 14.1</name>
-			<version>N 7.1.2</version>
+            <version>N 7.1.2</version>
             <status>Stable</status>
             <type>Official</type>
             <url>https://download.lineageos.org/a5y17lte</url>
@@ -600,15 +632,15 @@
 
         <rom>
             <name>hadesRom (Stock)</name>
-			<version>O 8.0</version>
+            <version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-oreo-hadesrom-stock-t3779567</url>
         </rom>
 		
-		<rom>
+        <rom>
             <name>hadesRom (S9+ Port)</name>
-			<version>O 8.0</version>
+            <version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-hadesrom-s9-port-v1-0-t3816635</url>
@@ -616,7 +648,7 @@
 
         <rom>
             <name>RRemix 7.0.0</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-resurrection-remix-v7-0-0-t3893699</url>
@@ -624,7 +656,7 @@
 
         <rom>
             <name>RRemix 6.2.1</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Stable</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/8-1-resurrection-remix-6-2-1-t3875569</url>
@@ -632,7 +664,7 @@
 
         <rom>
             <name>RRemix 5.8.5</name>
-			<version>N 7.1.2</version>
+            <version>N 7.1.2</version>
             <status>Stable</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/7-1-2-resurrection-remix-5-8-5-t3768543</url>
@@ -640,7 +672,7 @@
 
         <rom>
             <name>LineageOS 16.0</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Alpha</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-lineageos-16-0-galaxy-a57-2017-t3876673</url>
@@ -648,7 +680,7 @@
 
         <rom>
             <name>AOKP</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-aokp-t3888257</url>
@@ -656,7 +688,7 @@
 
         <rom>
             <name>Pixel Experience</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Alpha</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/unofficial-pixel-experience-9-0-android-t3885229</url>
@@ -670,7 +702,7 @@
     <rom-array name="a72017">
         <rom>
             <name>LineageOS 14.1</name>
-			<version>N 7.1.2</version>
+            <version>N 7.1.2</version>
             <status>Stable</status>
             <type>Official</type>
             <url>https://download.lineageos.org/a7y17lte</url>
@@ -678,15 +710,15 @@
 
         <rom>
             <name>hadesRom (Stock)</name>
-			<version>O 8.0</version>
+            <version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-oreo-hadesrom-stock-t3779567</url>
         </rom>
 		
-		<rom>
+        <rom>
             <name>hadesRom (S9+ Port)</name>
-			<version>O 8.0</version>
+            <version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-hadesrom-s9-port-v1-0-t3816635</url>
@@ -694,7 +726,7 @@
 
         <rom>
             <name>RRemix 7.0.0</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-resurrection-remix-v7-0-0-t3893699</url>
@@ -702,7 +734,7 @@
 
         <rom>
             <name>LineageOS 16.0</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Alpha</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/rom-lineageos-16-0-galaxy-a57-2017-t3876673</url>
@@ -710,7 +742,7 @@
 
         <rom>
             <name>Pixel Experience</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Alpha</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/samsung-a-series-2017/development/unofficial-pixel-experience-9-0-android-t3885229</url>
@@ -802,7 +834,7 @@
     <rom-array name="s2">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -810,7 +842,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -824,7 +856,7 @@
     <rom-array name="s3">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -832,7 +864,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -843,10 +875,10 @@
 	
 	
 	
-	<rom-array name="s4_9500">
+   <rom-array name="s4_9500">
         <rom>
             <name>RRemix 5.8.5</name>
-			<version>N 7.1.2</version>
+            <version>N 7.1.2</version>
             <status>Stable</status>
             <type>Official</type>
             <url>https://forum.xda-developers.com/galaxy-s4/i9500-develop/resurrection-remix-n-t3650856</url>
@@ -854,7 +886,7 @@
 
         <rom>
             <name>AOKP</name>
-			<version>N 7.1.2</version>
+            <version>N 7.1.2</version>
             <status>Stable</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/galaxy-s4/i9500-develop/rom-aokp-n-t3620350</url>
@@ -862,15 +894,15 @@
 
         <rom>
             <name>LineageOS 14.1</name>
-			<version>N 7.1.2</version>
+            <version>N 7.1.2</version>
             <status>Stable</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/galaxy-s4/i9500-develop/lineage-os-14-1-modded-i9500-t3637504</url>
         </rom>
 		
-		<rom>
+        <rom>
             <name>Phoenix Grace</name>
-			<version>LP 5.0.1</version>
+            <version>LP 5.0.1</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/galaxy-s4/i9500-develop/jar-team-phoenix-grace-rom-v1-0-t3710718</url>
@@ -881,10 +913,10 @@
 	
 	
 	
-	<rom-array name="s4_9505">
+    <rom-array name="s4_9505">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -892,7 +924,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -900,37 +932,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
-        </rom>
-    </rom-array>
-	
-	
-	
-	
-	
-	<rom-array name="s5">
-        <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
-        </rom>
-
-        <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
-        </rom>
-
-        <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -941,10 +943,10 @@
 	
 	
 	
-	<rom-array name="s6">
+    <rom-array name="s5">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -952,7 +954,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -960,37 +962,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
-        </rom>
-    </rom-array>
-
-
-
-
-
-	<rom-array name="s6e">
-        <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
-        </rom>
-
-        <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
-        </rom>
-
-        <rom>
-            <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1001,10 +973,10 @@
 	
 	
 	
-	<rom-array name="s7">
+    <rom-array name="s6">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1012,7 +984,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1020,7 +992,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1031,10 +1003,10 @@
 
 
 
-	<rom-array name="s7e">
+    <rom-array name="s6e">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1042,7 +1014,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1050,7 +1022,67 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+	
+	
+	
+	
+	
+    <rom-array name="s7">
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+
+
+
+
+
+    <rom-array name="s7e">
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+
+        <rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1064,7 +1096,7 @@
     <rom-array name="s8">
         <rom>
             <name>Renovate ICE</name>
-			<version>O 8.0</version>
+            <version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-renovate-ice-10-1-oxygenos-9-0-3-9-t3893372</url>
@@ -1072,7 +1104,7 @@
 
         <rom>
             <name>SoLdieR9312s ROM</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/g95xf-fd-n-oreo-beta-2-soldier9312-zqk4-t3703183</url>
@@ -1080,7 +1112,7 @@
 
         <rom>
             <name>GoogleWiz</name>
-			<version>O 8.0</version>
+            <version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-googlewiz-oreo-extreme-debloat-t3750641</url>
@@ -1088,23 +1120,23 @@
 
         <rom>
             <name>LightROM</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/teamexykings-lightrom-t3891294</url>
         </rom>
 
         <rom>
-            <name>LightROM (S9 Port)</name>
-			<version>O 8.0</version>
+            <name>LightROM (S10 Port)</name>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>N/A</type>
-            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-lightrom-t3758681</url>
+            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/teamexykings-lightrom-t3907123</url>
         </rom>
 
         <rom>
-            <name>LineageOS 15.1</name>
-			<version>O 8.1</version>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
             <status>Alpha</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-lineageos-15-1-t3899829</url>
@@ -1118,7 +1150,7 @@
     <rom-array name="s8+">
         <rom>
             <name>Renovate ICE</name>
-			<version>O 8.0</version>
+            <version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-renovate-ice-10-1-oxygenos-9-0-3-9-t3893372</url>
@@ -1126,7 +1158,7 @@
 
         <rom>
             <name>SoLdieR9312s ROM</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/g95xf-fd-n-oreo-beta-2-soldier9312-zqk4-t3703183</url>
@@ -1134,7 +1166,7 @@
 
         <rom>
             <name>GoogleWiz</name>
-			<version>O 8.0</version>
+            <version>O 8.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-googlewiz-oreo-extreme-debloat-t3750641</url>
@@ -1142,23 +1174,23 @@
 
         <rom>
             <name>LightROM</name>
-			<version>P 9.0</version>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>N/A</type>
             <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/teamexykings-lightrom-t3891294</url>
         </rom>
 
         <rom>
-            <name>LightROM (S9 Port)</name>
-			<version>O 8.0</version>
+            <name>LightROM (S10 Port)</name>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>N/A</type>
-            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-lightrom-t3758681</url>
+            <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/teamexykings-lightrom-t3907123</url>
         </rom>
 
         <rom>
-            <name>LineageOS 15.1</name>
-			<version>O 8.1</version>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
             <status>Alpha</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-lineageos-15-1-t3899829</url>
@@ -1172,7 +1204,7 @@
     <rom-array name="s9">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1180,7 +1212,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1194,7 +1226,7 @@
     <rom-array name="s9+">
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1202,7 +1234,7 @@
 
         <rom>
             <name>Placeholder</name>
-			<version>O 8.1</version>
+            <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
@@ -1285,19 +1317,75 @@
 
     <rom-array name="note2_n7100">
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <name>RRemix 5.8.0</name>
+            <version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-resurrection-remix-t3532859</url>
         </rom>
 
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
+            <name>CosmicOS 1.4</name>
+            <version>N 7.1.1</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-cosmic-os-v1-4-t3572786</url>
+        </rom>
+
+        <rom>
+            <name>XenonHD 7.1</name>
+            <version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/official-xenonhd-7-1-t3579771</url>
+        </rom>
+
+        <rom>
+            <name>AICP 12.1</name>
+            <version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-aicp-12-1-t3884692</url>
+        </rom>
+
+        <rom>
+            <name>dotOS</name>
+            <version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-dotos-v1-2-t3776443</url>
+        </rom>
+
+        <rom>
+            <name>ViperOS</name>
+            <version>N 7.1.2</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-viperos-rom-samsung-note-ii-oms-t3666234</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 14.1</name>
+            <version>N 7.1.2</version>
             <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/orig-development/rom-cyanogenmod-14-0-n7100-t3487568</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 15.1</name>
+            <version>O 8.1</version>
+            <status>Alpha</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-lineageos-15-1-t3871393</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Alpha</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-2/development/rom-lineageos-16-0-20190112-comico-t3889281</url>
         </rom>
     </rom-array>
 
@@ -1373,41 +1461,51 @@
 
     <rom-array name="note4sd">
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
+            <name>RRemix 7.0.0</name>
+            <version>P 9.0</version>
             <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/note-4/snapdragon-dev/rom-resurrection-remix-7-0-0-t3899186</url>
         </rom>
 
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
-        </rom>
-    </rom-array>
-
-
-
-
-
-    <rom-array name="note5">
-        <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
-            <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <name>HavocOS</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/note-4/snapdragon-dev/official-havoc-osv2-android-9-0-t3908093</url>
         </rom>
 
         <rom>
-            <name>Placeholder</name>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/note-4/snapdragon-dev/rom-lineageos-16-0-t3900807</url>
+        </rom>
+
+        <rom>
+            <name>RRemix 6.2.1</name>
+            <version>O 8.1</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/note-4/snapdragon-dev/rom-resurrection-remix-6-0-0-t3768963</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 15.1</name>
             <version>O 8.1</version>
             <status>Beta</status>
-            <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/note-4/snapdragon-dev/oreo-8-1-0-unofficial-lineage-15-1-rom-t3760969</url>
+        </rom>
+
+        <rom>
+            <name>AICP</name>
+            <version>O 8.1</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/note-4/snapdragon-dev/rom-aicp-13-1-t3823140</url>
         </rom>
     </rom-array>
 
@@ -1433,11 +1531,11 @@
         </rom>
 
         <rom>
-            <name>LightROM (S9 Port)</name>
-            <version>O 8.0</version>
+            <name>LightROM (S10 Port)</name>
+            <version>P 9.0</version>
             <status>Stable</status>
             <type>N/A</type>
-            <url>https://forum.xda-developers.com/galaxy-note-8/development/teamexykings-lightrom-t3799322</url>
+            <url>https://forum.xda-developers.com/galaxy-note-8/development/teamexykings-lightrom-t3899523</url>
         </rom>
 
         <rom>
@@ -1449,8 +1547,8 @@
         </rom>
 
         <rom>
-            <name>LineageOS 15.1</name>
-            <version>O 8.1</version>
+            <name>LineageOS 16.0</name>
+            <version>P 9.0</version>
             <status>Alpha</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/galaxy-note-8/development/rom-lineageos-15-1-t3899831</url>
