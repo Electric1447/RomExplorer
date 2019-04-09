@@ -519,21 +519,29 @@
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-posp-v2-1-fajita-t3894480</url>
         </rom>
-	    
+
         <rom>
-            <name>LiquidRemix</name>
+            <name>AEX 6.4</name>
             <version>P 9.0</version>
-            <status>Stable</status>
-            <type>Official</type>
-            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-liquidremix-t3888697</url>
+            <status>Beta</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-aospextended-rom-v6-4-fp-fixed-t3919718</url>
         </rom>
-	    
+
         <rom>
             <name>Pixel Experience</name>
             <version>P 9.0</version>
             <status>Stable</status>
             <type>Unofficial</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-pixel-experience-t3875179</url>
+        </rom>
+
+        <rom>
+            <name>LiquidRemix</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-liquidremix-t3888697</url>
         </rom>
 
         <rom>
