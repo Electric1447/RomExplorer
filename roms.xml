@@ -1653,19 +1653,91 @@
 
     <rom-array name="note9">
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
-            <status>Beta</status>
+            <name>LightROM</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
             <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <url>https://forum.xda-developers.com/galaxy-note-9/development/teamexykings-lightrom-t3890084</url>
         </rom>
 
         <rom>
-            <name>Placeholder</name>
+            <name>AMBASADII ROM</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note-9/development/rom-ambasadii-rom-n9-s9-s9-t3908276</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 15.1</name>
+            <version>O 8.1</version>
+            <status>Stable</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-9/development/n960f-t3916316</url>
+        </rom>
+
+        <rom>
+            <name>RomAur</name>
+            <version>P 9.0</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note-9/development/10-12-romaur-v3-0-fast-stable-t3877725</url>
+        </rom>
+
+        <rom>
+            <name>Dr.Ketan ROM</name>
+            <version>P 9.0</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note-9/development/26-08-18-n960-dr-ketan-rom-jio-volte-t3834184</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 16</name>
+            <version>P 9.0</version>
+            <status>Beta</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-9/development/rom-lineageos-16-unofficial-t3903234</url>
+        </rom>
+
+        <rom>
+            <name>Pixel Experience</name>
+            <version>P 9.0</version>
+            <status>Beta</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/galaxy-note-9/development/rom-pixelexperience-9-0-t3902340</url>
+        </rom>
+
+        <rom>
+            <name>THE GALAXY PROJECT</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note-9/development/rom-galaxy-project-t3911947</url>
+        </rom>
+
+        <rom>
+            <name>LIONSROAR ROM</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note-9/development/lionsroar-rom-v5-0-stock-rom-base-cbs3-t3903271</url>
+        </rom>
+
+        <rom>
+            <name>DevBase 6.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-note-9/development/test-s2arh6-devbase-v5-9-encryption-t3847061</url>
+        </rom>
+
+        <rom>
+            <name>HavocOS</name>
             <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <url>https://forum.xda-developers.com/galaxy-note-9/development/rom-havocos-t3861295</url>
         </rom>
     </rom-array>
 
