@@ -1227,11 +1227,19 @@
 	
     <rom-array name="s9">
         <rom>
-            <name>Placeholder</name>
-            <version>O 8.1</version>
-            <status>Beta</status>
+            <name>SoLdieR9312s ROM</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
             <type>N/A</type>
-            <url>https://www.xda-developers.com/</url>
+            <url>https://forum.xda-developers.com/galaxy-s9/samsung-galaxy-s9--s9-cross-device-development/g96xf-fd-n-stock-rom-soldier9312-1-0-t3771346</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 15.1</name>
+            <version>O 8.1</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/starlte</url>
         </rom>
 
         <rom>
@@ -1249,14 +1257,66 @@
 
     <rom-array name="s9+">
         <rom>
+            <name>SoLdieR9312s ROM</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-s9/samsung-galaxy-s9--s9-cross-device-development/g96xf-fd-n-stock-rom-soldier9312-1-0-t3771346</url>
+        </rom>
+
+        <rom>
+            <name>LineageOS 15.1</name>
+            <version>O 8.1</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://download.lineageos.org/star2lte</url>
+        </rom>
+		
+		<rom>
             <name>Placeholder</name>
             <version>O 8.1</version>
             <status>Beta</status>
             <type>N/A</type>
             <url>https://www.xda-developers.com/</url>
         </rom>
-
+    </rom-array>
+	
+	
+	
+	
+	
+	<rom-array name="s10">
         <rom>
+            <name>SoLdieR9312s ROM</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-s10/development/g97x-soldier9312s-g97x-aroma-mod-zip-1-t3918538</url>
+        </rom>
+		
+		<rom>
+            <name>Placeholder</name>
+            <version>O 8.1</version>
+            <status>Beta</status>
+            <type>N/A</type>
+            <url>https://www.xda-developers.com/</url>
+        </rom>
+    </rom-array>
+		
+	
+	
+	
+	
+	<rom-array name="s10+">
+        <rom>
+            <name>SoLdieR9312s ROM</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/galaxy-s10/development/g97x-soldier9312s-g97x-aroma-mod-zip-1-t3918538</url>
+        </rom>
+		
+		<rom>
             <name>Placeholder</name>
             <version>O 8.1</version>
             <status>Beta</status>
