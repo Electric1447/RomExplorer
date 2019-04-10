@@ -246,14 +246,14 @@
         <year>2018</year>
     </device>
 	
-	<device name="s10">
+    <device name="s10">
         <name>Galaxy S10</name>
         <codename>beyondlte</codename>
         <manufacturer>Samsung</manufacturer>
         <year>2019</year>
     </device>
 	
-	<device name="s10+">
+    <device name="s10+">
         <name>Galaxy S10+</name>
         <codename>beyond2lte</codename>
         <manufacturer>Samsung</manufacturer>
