@@ -1180,7 +1180,7 @@
             <url>https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/g95xf-fd-n-oreo-beta-2-soldier9312-zqk4-t3703183</url>
         </rom>
 
-		<rom>
+	<rom>
             <name>hadesRom</name>
             <version>P 9.0</version>
             <status>Stable</status>
@@ -1272,7 +1272,7 @@
             <url>https://download.lineageos.org/star2lte</url>
         </rom>
 		
-		<rom>
+	<rom>
             <name>Placeholder</name>
             <version>O 8.1</version>
             <status>Beta</status>
@@ -1285,7 +1285,7 @@
 	
 	
 	
-	<rom-array name="s10">
+    <rom-array name="s10">
         <rom>
             <name>SoLdieR9312s ROM</name>
             <version>P 9.0</version>
@@ -1293,8 +1293,8 @@
             <type>N/A</type>
             <url>https://forum.xda-developers.com/galaxy-s10/development/g97x-soldier9312s-g97x-aroma-mod-zip-1-t3918538</url>
         </rom>
-		
-		<rom>
+
+	<rom>
             <name>Placeholder</name>
             <version>O 8.1</version>
             <status>Beta</status>
@@ -1307,7 +1307,7 @@
 	
 	
 	
-	<rom-array name="s10+">
+    <rom-array name="s10+">
         <rom>
             <name>SoLdieR9312s ROM</name>
             <version>P 9.0</version>
@@ -1316,7 +1316,7 @@
             <url>https://forum.xda-developers.com/galaxy-s10/development/g97x-soldier9312s-g97x-aroma-mod-zip-1-t3918538</url>
         </rom>
 		
-		<rom>
+	<rom>
             <name>Placeholder</name>
             <version>O 8.1</version>
             <status>Beta</status>
