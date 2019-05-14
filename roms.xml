@@ -484,7 +484,7 @@
             <name>OmniROM</name>
             <version>P 9.0</version>
             <status>Stable</status>
-            <type>Unofficial</type>
+            <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-omnirom-oneplus6t-t3888582</url>
         </rom>
 
@@ -564,7 +564,7 @@
             <name>CarbonROM</name>
             <version>P 9.0</version>
             <status>Beta</status>
-            <type>Unofficial</type>
+            <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/9-carbonrom-cr-7-0-t3897320</url>
         </rom>
 
@@ -590,6 +590,14 @@
             <status>Stable</status>
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/rom-syberia-project-t3911727</url>
+        </rom>
+
+        <rom>
+            <name>NitrogenOS</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-nitrogen-os-t3930094</url>
         </rom>
 
         <rom>
