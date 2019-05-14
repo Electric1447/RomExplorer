@@ -577,6 +577,14 @@
         </rom>
 
         <rom>
+            <name>crDroid 5.1 (LuisROM)</name>
+            <version>P 9.0</version>
+            <status>Beta</status>
+            <type>Unofficial</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-crdroidandroid-t3883888</url>
+        </rom>
+
+        <rom>
             <name>ArrowOS</name>
             <version>P 9.0</version>
             <status>Stable</status>
@@ -614,6 +622,22 @@
             <status>Stable</status>
             <type>Official</type>
             <url>https://forum.xda-developers.com/oneplus-6t/development/bootleggersrom-4-0-stable-t3894698</url>
+        </rom>
+
+        <rom>
+            <name>Candy 9.0</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>Official</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-candy9-0-stable-t3924692</url>
+        </rom>
+
+        <rom>
+            <name>Omniverse</name>
+            <version>P 9.0</version>
+            <status>Stable</status>
+            <type>N/A</type>
+            <url>https://forum.xda-developers.com/oneplus-6t/development/rom-omniverse-oneplus6t-fajita-t3929492</url>
         </rom>
 
         <rom>
